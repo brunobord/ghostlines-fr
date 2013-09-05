@@ -1,8 +1,14 @@
 # Ghost Lines en Français
 
-French translation of [Ghost Lines](http://www.onesevendesign.com/ghostlines/), a role playing game by John Harper
+French translation of [Ghost Lines](http://www.onesevendesign.com/ghostlines/),
+a role playing game by [John Harper](http://www.onesevendesign.com/).
 
 ----
+
+Je n'ai pas de copie de InDesign, ni envie d'en acheter, et encore moins de
+foi en mes talents graphiques. Le but de ce modeste projet est de proposer 
+une version *aussi confortable que possible* en HTML, si possible imprimable
+et utilisable rapidement.
 
 ## Glossaire
 
