@@ -4,6 +4,29 @@ French translation of [Ghost Lines](http://www.onesevendesign.com/ghostlines/), 
 
 ----
 
+## Glossaire
+
+J'ai essayé de respecter l'esprit du jeu original, mais certains termes sont
+difficiles à traduire (ils sont en italique, si quelqu'un a une suggestion,
+qu'il n'hésite pas)
+
+* Force: Force
+* Finesse: Finesse
+* Insight: Lucidité
+* Steel: Cran
+* roll+stat: jet+stat
+* Trauma: Trauma
+* Chits: Jetons
+* Favor: Faveur
+* *Bulls: Bulls* - idées: les Brutes, les Gars ?
+* Anchor: Ancre
+* Spider: Araignée
+* Rook: Corbeau
+* Owl: Hibou
+* Harm: Dommage
+
+## Licence
+
 Étant donné que l'oeuvre originale est sous contrat Creative Commons BY-NC-SA
 (Attribution / Non Commerciale / Partage à l'Identique), il est évident que 
 cette (tentative) de traduction est distribuée selon les mêmes termes.
