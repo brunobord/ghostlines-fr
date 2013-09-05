@@ -22,14 +22,14 @@ qu'il n'hésite pas)
 * Steel: Cran
 * roll+stat: jet+stat
 * Trauma: Trauma
-* Chits: Jetons
+* *Chits: Jetons*
 * Favor: Faveur
 * *Bulls: Bulls* - idées: les Brutes, les Gars ?
 * Anchor: Ancre
 * Spider: Araignée
 * Rook: Corbeau
 * Owl: Hibou
-* Harm: Dommage
+* *Harm: Dommage*
 
 ## Licence
 
