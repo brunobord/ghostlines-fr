@@ -1,6 +1,8 @@
 ## The Third Age
 # Ghost Lines
 
+**ATTENTION ! CECI EST UNE VERSION PARTIELLE / INCOMPLÈTE / NON-VÉRIFIÉE**
+
 ## Force
 
 ***Quand vous employez la force***, `jet+Force` et choisissez parmi les options.
