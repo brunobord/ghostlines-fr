@@ -3,272 +3,55 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ghost Lines VF</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 <style>
-
-body
-{
-  font-size:15px;
-  line-height:1.7;
-  overflow-x:hidden;
-
-    background-color: white;
-    border-radius: 3px;
-    border: 3px solid #EEE;
-    box-shadow: inset 0 0 0 1px #CECECE;
-    font-family: Helvetica, arial, freesans, clean, sans-serif;
-    width: 912px;
-    padding: 30px;
-    margin: 2em auto;
-
-    color:#333333;
+@font-face {
+	font-family: 'Water Street';
+	src: url('fonts/waterst.eot');
+	src: local('☺'), url('fonts/waterst.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
-
-
-body>:first-child
-{
-  margin-top:0!important;
+@font-face {
+    font-family: "Libre Caslon";
+    src: url("fonts/LibreCaslonText-Regular.otf");
 }
-
-body>:last-child
-{
-  margin-bottom:0!important;
+@font-face {
+    font-family: "Libre Caslon Bold";
+    src: url("fonts/LibreCaslonText-Bold.otf");
+    font-weight: bold;
 }
-
-blockquote,dl,ol,p,pre,table,ul {
-  border: 0;
-  margin: 15px 0;
-  padding: 0;
+@font-face {
+    font-family: "Libre Caslon Italic";
+    src: url("fonts/LibreCaslonText-Italic.otf");
+    font-style: italic, oblique;
 }
-
-body h1,body h2,body h3,body h4,body h5,body h6{
-  margin:1em 0 15px;
-  padding:0;
-  font-weight:bold;
-  line-height:1.7;
-  cursor:text;
-  position:relative
-}
-
-body h1 .octicon-link,body h2 .octicon-link,body h3 .octicon-link,body h4 .octicon-link,body h5 .octicon-link,body h6 .octicon-link{
-  display:none;
-  color:#000
-}
-
-body h1:hover a.anchor,body h2:hover a.anchor,body h3:hover a.anchor,body h4:hover a.anchor,body h5:hover a.anchor,body h6:hover a.anchor{
-  text-decoration:none;
-  line-height:1;
-  padding-left:0;
-  margin-left:-22px;
-  top:15%
-}
-
-body h1:hover a.anchor .octicon-link,body h2:hover a.anchor .octicon-link,body h3:hover a.anchor .octicon-link,body h4:hover a.anchor .octicon-link,body h5:hover a.anchor .octicon-link,body h6:hover a.anchor .octicon-link{
-  display:inline-block
-}
-
-body h1 tt,body h1 code,body h2 tt,body h2 code,body h3 tt,body h3 code,body h4 tt,body h4 code,body h5 tt,body h5 code,body h6 tt,body h6 code{
-  font-size:inherit
-}
-
-body h1{
-  font-size:2.5em;
-  border-bottom:1px solid #ddd
-}
-
-body h2{
-  font-size:2em;
-  border-bottom:1px solid #eee
-}
-
-body h3{
-  font-size:1.5em
-}
-
-body h4{
-  font-size:1.2em
-}
-
-body h5{
-  font-size:1em
-}
-
-body h6{
-  color:#777;
-  font-size:1em
-}
-
-body p,body blockquote,body ul,body ol,body dl,body table,body pre{
-  margin:15px 0
-}
-
-body h1 tt,body h1 code,body h2 tt,body h2 code,body h3 tt,body h3 code,body h4 tt,body h4 code,body h5 tt,body h5 code,body h6 tt,body h6 code
-{
-  font-size:inherit;
-}
-
-
-body hr
-{
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC);
-  background-repeat: repeat-x;
-  /*background:transparent url(http://overblown.net/files/markdown/dirty-shade.png) repeat-x 0 0;*/
-  background-color: transparent;
-  background-position: 0;
-  border:0 none;
-  color:#ccc;
-  height:4px;
-  margin:15px 0;
-  padding:0;
-}
-
-body li p.first
-{
-  display:inline-block;
-}
-
-body ul,body ol
-{
-  padding-left:30px;
-}
-
-body ul.no-list,body ol.no-list
-{
-  list-style-type:none;
-  padding:0;
-}
-
-body ul ul,body ul ol,body ol ol,body ol ul
-{
-  margin-bottom:0;
-  margin-top:0;
-}
-
-body dl
-{
-  padding:0;
-}
-
-body dl dt
-{
-  font-size:14px;
-  font-style:italic;
-  font-weight:700;
-  margin-top:15px;
-  padding:0;
-}
-
-body dl dd
-{
-  margin-bottom:15px;
-  padding:0 15px;
-}
-
-body blockquote
-{
-  border-left:4px solid #DDD;
-  color:#777;
-  padding:0 15px;
-}
-
-body blockquote>:first-child
-{
-  margin-top:0;
-}
-
-body blockquote>:last-child
-{
-  margin-bottom:0;
-}
-
-body table
-{
-  display:block;
-  overflow:auto;
-  width:100%;
-}
-
-body table th
-{
-  font-weight:700;
-}
-
-body table th,body table td
-{
-  border:1px solid #ddd;
-  padding:6px 13px;
-}
-
-body table tr
-{
-  background-color:#fff;
-  border-top:1px solid #ccc;
-}
-
-body table tr:nth-child(2n)
-{
-  background-color:#f8f8f8;
-}
-
-body img
-{
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-  max-width:100%;
-}
-
-body code,body tt
-{
-  background-color:#f8f8f8;
-  border:1px solid #ddd;
-  border-radius:3px;
-  margin:0 2px;
-  padding:0 5px;
-}
-
-body code
-{
-  white-space:nowrap;
-}
-
-
-code,pre{
-  font-family:Consolas, "Liberation Mono", Courier, monospace;
-  font-size:12px
-}
-
-body pre>code
-{
-  background:transparent;
-  border:none;
-  margin:0;
-  padding:0;
-  white-space:pre;
-}
-
-body .highlight pre,body pre
-{
-  background-color:#f8f8f8;
-  border:1px solid #ddd;
-  font-size:13px;
-  line-height:19px;
-  overflow:auto;
-  padding:6px 10px;
-  border-radius:3px
-}
-
-body pre code,body pre tt
-{
-  background-color:transparent;
-  border:none;
-  margin:0;
-  padding:0;
-}
-
+h1, h2, h3, h4, h5, h6 { font-family: 'Water Street', sans-serif !important;}
+h1 { font-size: 2.88em !important;}
+h2 { font-size: 1.9em !important;}
+h3 { font-size: 1.44em !important;}
+body, p, li {font-family: "Libre Caslon", serif !important; }
+em, blockquote p, q { font-family: "Libre Caslon Italic", serif !important;}
+blockquote p {font-size: 14px !important;}
+strong {font-family: "Libre Caslon Bold", serif !important; }
+strong > em, em > strong { font-family: "Libre Caslon", serif !important; font-style: italic; font-weight: bold;}
 </style>
-
-
 </head>
 <body>
-{{ content }}
+<div class="container-fluid">
+
+<div class="row-fluid">
+	<div class="span4">{{ page_1_col_1 }}</div>
+	<div class="span4 text-center">{{ page_1_col_2 }}</div>
+	<div class="span4">{{ page_1_col_3 }}</div>
+</div>
+<hr>
+<div class="row-fluid">
+	<div class="span4">{{ page_2_col_1 }}</div>
+	<div class="span4">{{ page_2_col_2 }}</div>
+	<div class="span4">{{ page_2_col_3 }}</div>
+</div>
+
+</div>
 </body>
 </html>
