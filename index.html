@@ -3,276 +3,51 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ghost Lines VF</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 <style>
-
-body
-{
-  font-size:15px;
-  line-height:1.7;
-  overflow-x:hidden;
-
-    background-color: white;
-    border-radius: 3px;
-    border: 3px solid #EEE;
-    box-shadow: inset 0 0 0 1px #CECECE;
-    font-family: Helvetica, arial, freesans, clean, sans-serif;
-    width: 912px;
-    padding: 30px;
-    margin: 2em auto;
-
-    color:#333333;
+@font-face {
+	font-family: 'Water Street';
+	src: url('fonts/waterst.eot');
+	src: local('☺'), url('fonts/waterst.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
-
-
-body>:first-child
-{
-  margin-top:0!important;
+@font-face {
+    font-family: "Acaslon";
+    src: url("fonts/ACaslonPro-Regular.otf");
 }
-
-body>:last-child
-{
-  margin-bottom:0!important;
+@font-face {
+    font-family: "Acaslon Bold";
+    src: url("fonts/ACaslonPro-Bold.otf");
+    font-weight: bold;
 }
-
-blockquote,dl,ol,p,pre,table,ul {
-  border: 0;
-  margin: 15px 0;
-  padding: 0;
+@font-face {
+    font-family: "Acaslon Italic";
+    src: url("fonts/ACaslonPro-Italic.otf");
+    font-style: italic, oblique;
 }
-
-body h1,body h2,body h3,body h4,body h5,body h6{
-  margin:1em 0 15px;
-  padding:0;
-  font-weight:bold;
-  line-height:1.7;
-  cursor:text;
-  position:relative
+@font-face {
+    font-family: "Acaslon Bold Italic";
+    src: url("fonts/ACaslonPro-BoldItalic.otf");
+    font-weight: bold;
+    font-style: italic, oblique;
 }
-
-body h1 .octicon-link,body h2 .octicon-link,body h3 .octicon-link,body h4 .octicon-link,body h5 .octicon-link,body h6 .octicon-link{
-  display:none;
-  color:#000
-}
-
-body h1:hover a.anchor,body h2:hover a.anchor,body h3:hover a.anchor,body h4:hover a.anchor,body h5:hover a.anchor,body h6:hover a.anchor{
-  text-decoration:none;
-  line-height:1;
-  padding-left:0;
-  margin-left:-22px;
-  top:15%
-}
-
-body h1:hover a.anchor .octicon-link,body h2:hover a.anchor .octicon-link,body h3:hover a.anchor .octicon-link,body h4:hover a.anchor .octicon-link,body h5:hover a.anchor .octicon-link,body h6:hover a.anchor .octicon-link{
-  display:inline-block
-}
-
-body h1 tt,body h1 code,body h2 tt,body h2 code,body h3 tt,body h3 code,body h4 tt,body h4 code,body h5 tt,body h5 code,body h6 tt,body h6 code{
-  font-size:inherit
-}
-
-body h1{
-  font-size:2.5em;
-  border-bottom:1px solid #ddd
-}
-
-body h2{
-  font-size:2em;
-  border-bottom:1px solid #eee
-}
-
-body h3{
-  font-size:1.5em
-}
-
-body h4{
-  font-size:1.2em
-}
-
-body h5{
-  font-size:1em
-}
-
-body h6{
-  color:#777;
-  font-size:1em
-}
-
-body p,body blockquote,body ul,body ol,body dl,body table,body pre{
-  margin:15px 0
-}
-
-body h1 tt,body h1 code,body h2 tt,body h2 code,body h3 tt,body h3 code,body h4 tt,body h4 code,body h5 tt,body h5 code,body h6 tt,body h6 code
-{
-  font-size:inherit;
-}
-
-
-body hr
-{
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC);
-  background-repeat: repeat-x;
-  /*background:transparent url(http://overblown.net/files/markdown/dirty-shade.png) repeat-x 0 0;*/
-  background-color: transparent;
-  background-position: 0;
-  border:0 none;
-  color:#ccc;
-  height:4px;
-  margin:15px 0;
-  padding:0;
-}
-
-body li p.first
-{
-  display:inline-block;
-}
-
-body ul,body ol
-{
-  padding-left:30px;
-}
-
-body ul.no-list,body ol.no-list
-{
-  list-style-type:none;
-  padding:0;
-}
-
-body ul ul,body ul ol,body ol ol,body ol ul
-{
-  margin-bottom:0;
-  margin-top:0;
-}
-
-body dl
-{
-  padding:0;
-}
-
-body dl dt
-{
-  font-size:14px;
-  font-style:italic;
-  font-weight:700;
-  margin-top:15px;
-  padding:0;
-}
-
-body dl dd
-{
-  margin-bottom:15px;
-  padding:0 15px;
-}
-
-body blockquote
-{
-  border-left:4px solid #DDD;
-  color:#777;
-  padding:0 15px;
-}
-
-body blockquote>:first-child
-{
-  margin-top:0;
-}
-
-body blockquote>:last-child
-{
-  margin-bottom:0;
-}
-
-body table
-{
-  display:block;
-  overflow:auto;
-  width:100%;
-}
-
-body table th
-{
-  font-weight:700;
-}
-
-body table th,body table td
-{
-  border:1px solid #ddd;
-  padding:6px 13px;
-}
-
-body table tr
-{
-  background-color:#fff;
-  border-top:1px solid #ccc;
-}
-
-body table tr:nth-child(2n)
-{
-  background-color:#f8f8f8;
-}
-
-body img
-{
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-  max-width:100%;
-}
-
-body code,body tt
-{
-  background-color:#f8f8f8;
-  border:1px solid #ddd;
-  border-radius:3px;
-  margin:0 2px;
-  padding:0 5px;
-}
-
-body code
-{
-  white-space:nowrap;
-}
-
-
-code,pre{
-  font-family:Consolas, "Liberation Mono", Courier, monospace;
-  font-size:12px
-}
-
-body pre>code
-{
-  background:transparent;
-  border:none;
-  margin:0;
-  padding:0;
-  white-space:pre;
-}
-
-body .highlight pre,body pre
-{
-  background-color:#f8f8f8;
-  border:1px solid #ddd;
-  font-size:13px;
-  line-height:19px;
-  overflow:auto;
-  padding:6px 10px;
-  border-radius:3px
-}
-
-body pre code,body pre tt
-{
-  background-color:transparent;
-  border:none;
-  margin:0;
-  padding:0;
-}
-
+h1, h2, h3, h4, h5, h6 { font-family: 'Water Street', sans-serif !important;}
+h1 { font-size: 2.88em !important;}
+h2 { font-size: 1.9em !important;}
+h3 { font-size: 1.44em !important;}
+body, p, li {font-family: "Acaslon", serif !important; }
+em, blockquote p, q { font-family: "Acaslon Italic", serif !important;}
+blockquote p {font-size: 14px !important;}
+strong {font-family: "Acaslon Bold", serif !important; }
+strong > em, em > strong { font-family: "Acaslon Bold Italic", serif !important; }
 </style>
-
-
 </head>
 <body>
-<h2 id="the-third-age">The Third Age</h2>
-<h1 id="ghost-lines">Ghost Lines</h1>
-<p><strong>ATTENTION ! CECI EST UNE VERSION PARTIELLE / INCOMPLÈTE / NON-VÉRIFIÉE</strong></p>
-<h2 id="force">Force</h2>
+<div class="container-fluid">
+
+<div class="row-fluid">
+	<div class="span4"><h2 id="force">Force</h2>
 <p><strong><em>Quand vous employez la force</em></strong>, <code>jet+Force</code> et choisissez parmi les options.</p>
 <p>Sur 12+, trois. Sur 10-11, deux. Sur 7-9, une.</p>
 <ul>
@@ -288,7 +63,7 @@ body pre code,body pre tt
 <li>Vous évitez les ennuis, d'être compromis, le prix à payer,</li>
 <li>Vous le faites de manière impressionnante, avec classe,</li>
 </ul>
-<h2 id="lucidite">Lucidité</h2>
+<h2 id="lucidite">LuciditÉ</h2>
 <p><strong><em>Quand vous essayez d'être perspicace</em></strong>, <code>jet+Lucidité</code>.</p>
 <p>Sur 12+, gardez-en trois. Sur 10-11, gardez-en deux. Sur 7-9, gardez-en une.</p>
 <p>Conservez vos options en réserve en les troquant "une pour une" contre une
@@ -303,14 +78,17 @@ question à poser au MdJ à tout moment de la scène.</p>
 </ul>
 <p><em>Sur un échec, vous n'avez pas d'option en réserve, mais vous pouvez poser une
 question immédiatement.</em></p>
-<h2 id="aider-interferer">Aider / Interférer</h2>
+<h2 id="aider-interferer">Aider / InterfÉrer</h2>
 <p>Pour chaque mouvement ci-dessus (Force, Finesse, Lucidité), vous pouvez également
 dépenser une de vos options en tant qu'aide ou gêne :</p>
 <ul>
 <li>Vous aidez quelqu'un, ils reçoivent un bonus de +1 à leur jet.</li>
 <li>Vous gênez quelqu'un, ils reçoivent un malus de -2.</li>
-</ul>
-<h2 id="cran">Cran</h2>
+</ul></div>
+	<div class="span4 text-center"><h2 id="the-third-age">The Third Age</h2>
+<h1 id="ghost-lines">Ghost Lines</h1>
+<p><strong>ATTENTION ! CECI EST UNE VERSION PARTIELLE / INCOMPLÈTE / NON-VÉRIFIÉE</strong></p></div>
+	<div class="span4"><h2 id="cran">Cran</h2>
 <p><strong><em>Quand vous résistez</em></strong>, à une blessure, une contrainte ou une horreur
 supernaturelle, choisissez parmi les options <strong>celle que vous ne voulez pas</strong>
 et faites un <code>jet+Cran</code>.</p>
@@ -324,7 +102,7 @@ qui arrive !</em></p>
 <li>Rage, perte de contrôle, provoque des dommages involontaires,</li>
 <li>Souffre un Trauma ou un Dommage supplémentaire.</li>
 </ul>
-<h2 id="periode-creuse">Période creuse</h2>
+<h2 id="periode-creuse">PÉriode creuse</h2>
 <p>Quand vous êtes en période creuse, sans boulot, choisissez une option :</p>
 <ul>
 <li><strong>Aller au pub</strong> : Soigne le Trauma (si plus élevé que 6, descendez à 6, si
@@ -338,14 +116,16 @@ qui arrive !</em></p>
 <p>Vous pouvez choisir de dépenser des <code>Jetons</code> (un pour un) pour chacune des
 options. Vous pouvez choisir deux fois la même option.</p>
 <p><strong>Note: Quand on vous demande de faire un <code>jet</code>, prendez deux dés à 6 faces et 
-additionnez-les.</strong></p>
-<hr />
-<h2 id="creation-du-personnage">Création du personnage</h2>
+additionnez-les.</strong></p></div>
+</div>
+<hr>
+<div class="row-fluid">
+	<div class="span4"><h2 id="creation-du-personnage">CrÉation du personnage</h2>
 <p>Choisissez un nom et un badge (voir ci-dessous). Choisissez une patrie et deux
 Dons. Assignez vos points aux caractéristiques : <code>Force</code>, <code>Lucidité</code>, <code>Finesse</code>,
 <code>Cran</code>, afin que leur somme soit égale à +2 (max +3 et min -1). Cela peut faire
 [0, 0, +1 +1] ou [+2, 0, 0, 0] ou encore [0, +3, -1, 0].</p>
-<h2 id="nom">Nom</h2>
+<h2 id="noms">Noms</h2>
 <p>Votre badge a un nom écrit dessus, sélectionné à partir du registre des
 Purifiés, comme l'exige la tradition.</p>
 <blockquote>
@@ -362,8 +142,8 @@ Orlence, Astin, Boury, Hance, Kale, Lanvell, Larn Lenia, Tesslyn, Veretta,
 Sethla, Vey, Polonia, Bry, Talitha, Arden, Candra, Cavelle, Brena, Vauri,
 Emeline, Volette, Lynthia, Cyrene, Arcy, Quess, Roethe, Kamelin, Lauria,
 Lizete, Corille, Daphnia, Carissa, Odrienne, Casslyn, Arilyn, Naria, Vestine</p>
-</blockquote>
-<h2 id="contre-le-surnaturel">Contre le surnaturel</h2>
+</blockquote></div>
+	<div class="span4"><h2 id="contre-le-surnaturel">Contre le surnaturel</h2>
 <p><strong><em>Quand vous guidez les Bulls contre un fantôme</em></strong> le MdJ vous posera les
 questions suivantes :</p>
 <ul>
@@ -396,8 +176,8 @@ questions suivantes :</p>
   crochet-foudre (<code>Force</code>), l'affaiblir.</li>
 <li>Hibou (Owl) : répérer et étudier le fantôme avec vos lunettes-esprit
   (<code>Lucidité</code>), déterminer la meilleure stratégie.</li>
-</ul>
-<h2 id="imposez-votre-volonte">Imposez votre volonté</h2>
+</ul></div>
+	<div class="span4"><h2 id="imposez-votre-volonte">Imposez votre volontÉ</h2>
 <p><strong><em>Quand vous devez imposer votre volonté</em></strong>, faites un <code>jet</code></p>
 <ul>
 <li>Si votre Cran est supérieur, +1</li>
@@ -440,76 +220,9 @@ Horreurs sont permanentes. On remplit les cases dans le sens horaire.</em></p>
 <p>Vous démarrez au niveau 0. Quand vous changez de niveau, choisissez un nouveau
 Don de votre Patrie, ou d'une patrie avec laquelle vous avez travaillé sur au
 moins 4 lignes / boulots.
-Quand vous devenez un Maître, ajoutez +1 à une stat (max +3).</p>
-<hr />
-<h2 id="sur-la-ligne-fantome">Sur la ligne fantôme...</h2>
-<p>C'est l'an 891 du Grand Empire, celui qui unifia les îles éparpillées par le
-cataclysme sous une seule bannière - <em>Tout Gloire à sa Majesté
-notre Empereur Immortel</em>.</p>
-<p>Vous travaillez sur les Lignes Fantômes - un chemin de fer électrique qui
-traverse les terres désolées, noires comme l'encre entre les villes. Les esprits
-des morts - libérés par la rupture des portes des enfers suite au cataclysme -
-sont souvent pris au piège des champs électriques générés par les trains. Les
-"Bulls" de la ligne comme vous patrouillent le long des wagons au son cliquetant
-de leurs bottes magnétiques et de la respiration sifflante au travers de leurs
-masques de protection ; leur mission est de nettoyer les esprits avec vos
-crochets-foudre avant qu'ils ne fassent trop de dégâts.</p>
-<p>Chaque cité de l'Empire est encerclé par des tours-foudre qui créent une
-enveloppe électrique que les esprits ne peuvent franchir. De par la loi, tous
-les cadavres doivent être incinérés à l'aide d'huile-lumière (qui détruit
-l'essence de l'esprit) mais certains riches citoyens, des hérétiques des cultes
-spiritiques, ou des criminels s'arrangent pour que le fantôme échappe à la
-destruction au crematorium. <em>Les "Bulls" comme vous auront également à faire
-avec ceux qu'on appelle les "esprits errants"</em>. Contre rémunération, évidemment.</p>
-<p>Quand les éclaireurs des frontières de l'Empire (les Chasseurs) découvrent un
-puits-à-esprits dans les terres désolées, ils font parfois appel à un gang de
-"Bulls" expérimentés pour le nettoyer. C'est le travail le plus dangereux - bien
-plus que la sécurité toute relative de l'électro-rail - mais une échappatoire à
-la routine de la ligne. Mais la paie est substantielle, et un "Bull" qui nettoie
-un puits et survit peut espérer gagner suffisamment pour prendre sa retraite.</p>
-<h2 id="les-evenements-sur-la-ligne">Les événements sur la ligne</h2>
-<ol>
-<li><strong>Le train doit s'arrêter</strong>. Besoin de réparations, les rails sont
-   endommagés, perte de puissance, une demande expresse d'un passager important
-   (un philosophe de la nature, un noble), ordres impériaux, un puits-à-esprit a
-   été repéré, météo.</li>
-<li><strong>Le train ne peut pas s'arrêter</strong>, les mécanos sont neutralisés, la
-   propulsion est endommagée, une demande expresse d'un passager important,
-   ordres impériaux, impératif météo.</li>
-<li><strong>Événement surnaturel</strong>, le temps ralentit / s'accélère, le paysage change, 
-   hallucination de groupe, amnésies, météo très étrange (pluies de feu, vent
-   sombre)</li>
-<li><strong>Fantôme</strong>. Quelqu'un peut les reconnaître ?</li>
-<li><strong>Fantômes, au pluriel</strong>. Quels sont les noms qu'ils appellent ?</li>
-<li><strong>Fantôme majeur</strong>. Pas forcément un esprit humain. Vaut au moins
-   5 nettoyages.</li>
-</ol>
-<h2 id="spectrologie">Spectrologie</h2>
-<ul>
-<li>Âme : un corps vivant avec son propre esprit</li>
-<li>Possédé : Un corps vivant avec deux esprits ou plus.</li>
-<li>Hollow : Un corps vivant sans âme.</li>
-<li>Mort-vivant : Un corps mort avec un esprit vivant.</li>
-<li>Fantôme : Un esprit sans corps.</li>
-<li>Puits-à-Esprit : Une faille dans la réalité dans laquelle les fantômes et les autres esprits surnaturels se regroupent pour y puiser de l'énergie.</li>
-<li>Électroplasme : Le résidu d'énergie qui reste lorsqu'un fantôme a été "réduit au silence" (détruit). Manipuler avec extrême précaution.</li>
-<li>Sorcier : Une personne sensible aux esprits. Peut être capable d'invoquer et de dialoguer avec des fantômes, mais peu de gens croient en ces pouvoirs.</li>
-</ul>
-<h2 id="jetons-pecule-faveurs">Jetons, pécule, faveurs</h2>
-<p>Quand vous travaillez sur une ligne, vous êtes payés en Jetons ; une monnaie de
-plomb que vous pourrez utiliser pour vous nourrir, vous loger et autres marchandises
-vendues par l'Agence Impériale du Rail.</p>
-<ul>
-<li>Niveau de la Ligne x Niveau du personnage = nb. de Jetons gagnés.</li>
-</ul>
-<p>Vous gagnez également : 1 + Niveau si vous endossez le rôle d'Ancre et +1 Jeton
-pour chaque fantôme nettoyé.</p>
-<p>Vous pourrez dépenser ces jetons pendant votre temps de repos pour récupérer
-de vos Dommages et Traumas, engager quelqu'un pour un petit boulot, etc.</p>
-<p>Votre Pécule est ce que vous aurez grapillé en vue de votre retraite. Plus il
-est élevé, mieux vous vous porterez. Votre Pécule est comme votre score dans le
-jeu.</p>
-<hr />
-<p>License: Creative Commons attribution non-commercial share-alike. (cc by-nc-sa)</p>
+Quand vous devenez un Maître, ajoutez +1 à une stat (max +3).</p></div>
+</div>
+
+</div>
 </body>
 </html>

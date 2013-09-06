@@ -1,10 +1,14 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
+from os.path import abspath, dirname, join, splitext
+from os import listdir
 import codecs
 
 from jinja2 import Template
 from markdown import Markdown
 
+ROOT_DIR = abspath(dirname(__file__))
+SOURCE_DIR = join(ROOT_DIR, 'src')
 
 class MarkdownReader(object):
     "Reader for markdown documents"
@@ -34,6 +38,11 @@ class HTMLWriter(object):
 if __name__ == '__main__':
     reader = MarkdownReader()
     writer = HTMLWriter(Template(codecs.open('templates/base.html', encoding='utf').read()))
-    content = reader.read('ghost-lines-fr.md')
-    writer.write({'content': content})
+    data = {}
+    for filename in listdir(SOURCE_DIR):
+        key, _ = splitext(filename)
+        key = key.replace('-', '_')
+        content = reader.read(join(SOURCE_DIR, filename))
+        data[key] = content
+    writer.write(data)
 
