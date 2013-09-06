@@ -10,6 +10,8 @@ foi en mes talents graphiques. Le but de ce modeste projet est de proposer
 une version *aussi confortable que possible* en HTML, si possible imprimable
 et utilisable rapidement.
 
+Une ébauche est visible à l'adresse : [http://brunobord.github.io/ghostlines-fr/](http://brunobord.github.io/ghostlines-fr/)
+
 ## Sur la ligne fantôme...
 
 C'est l'an 891 du Grand Empire, celui qui unifia les îles éparpillées par le
