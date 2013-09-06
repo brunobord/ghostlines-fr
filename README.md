@@ -66,6 +66,7 @@ qu'il n'hésite pas)
 * Spirit-bottle: Flasque-esprit.
 * Lightning-web: Toile-Foudre
 * Lightning-hook: Crochet-Foudre
+* Stash: Pécule
 
 ## Licence
 

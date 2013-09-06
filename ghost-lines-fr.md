@@ -74,7 +74,7 @@ Quand vous êtes en période creuse, sans boulot, choisissez une option :
   descendez à 9. Si à 9, descendez à 6. Si 6 ou inférieur, tout est guéri)
 * **Faites un petit job** - au choix : videur, courrier, artisan, crematorium,
   crime, distillerie, docks, forge, chasse-leviathan, abattoir, étable,
-  commerce. Récupérez `2-Jetons` ou `1-Faveur`
+  commerce. Récupérez `2-Pécules` ou `1-Faveur`
 
 Vous pouvez choisir de dépenser des `Jetons` (un pour un) pour chacune des
 options. Vous pouvez choisir deux fois la même option.
@@ -256,6 +256,24 @@ un puits et survit peut espérer gagner suffisamment pour prendre sa retraite.
 * Puits-à-Esprit : Une faille dans la réalité dans laquelle les fantômes et les autres esprits surnaturels se regroupent pour y puiser de l'énergie.
 * Électroplasme : Le résidu d'énergie qui reste lorsqu'un fantôme a été "réduit au silence" (détruit). Manipuler avec extrême précaution.
 * Sorcier : Une personne sensible aux esprits. Peut être capable d'invoquer et de dialoguer avec des fantômes, mais peu de gens croient en ces pouvoirs.
+
+## Jetons, pécule, faveurs
+
+Quand vous travaillez sur une ligne, vous êtes payés en Jetons ; une monnaie de
+plomb que vous pourrez utiliser pour vous nourrir, vous loger et autres marchandises
+vendues par l'Agence Impériale du Rail.
+
+* Niveau de la Ligne x Niveau du personnage = nb. de Jetons gagnés.
+
+Vous gagnez également : 1 + Niveau si vous endossez le rôle d'Ancre et +1 Jeton
+pour chaque fantôme nettoyé.
+
+Vous pourrez dépenser ces jetons pendant votre temps de repos pour récupérer
+de vos Dommages et Traumas, engager quelqu'un pour un petit boulot, etc.
+
+Votre Pécule est ce que vous aurez grapillé en vue de votre retraite. Plus il
+est élevé, mieux vous vous porterez. Votre Pécule est comme votre score dans le
+jeu.
 
 ----
 
