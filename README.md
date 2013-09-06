@@ -62,6 +62,10 @@ qu'il n'hésite pas)
 * Rook: Corbeau
 * Owl: Hibou
 * *Harm: Dommage*
+* Gift: Don
+* Spirit-bottle: Flasque-esprit.
+* Lightning-web: Toile-Foudre
+* Lightning-hook: Crochet-Foudre
 
 ## Licence
 

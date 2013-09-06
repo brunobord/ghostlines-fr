@@ -68,9 +68,13 @@ qui arrive !*
 
 Quand vous êtes en période creuse, sans boulot, choisissez une option :
 
-* **Aller au pub** : Soigne le Trauma (si plus élevé que 6, descendez à 6, si 6 ou inférieur, passez à zéro),
-* **Visitez le guérisseur** : Soigne les Dommages (si plus élevé que 9, descendez à 9. Si à 9, descendez à 6. Si 6 ou inférieur, tout est guéri)
-* **Faites un petit job** - au choix : videur, courrier, artisan, crematorium, crime, distillerie, docks, forge, chasse-leviathan, abattoir, étable, commerce. Récupérez `2-Jetons` ou `1-Faveur`
+* **Aller au pub** : Soigne le Trauma (si plus élevé que 6, descendez à 6, si
+  6 ou inférieur, passez à zéro),
+* **Visitez le guérisseur** : Soigne les Dommages (si plus élevé que 9,
+  descendez à 9. Si à 9, descendez à 6. Si 6 ou inférieur, tout est guéri)
+* **Faites un petit job** - au choix : videur, courrier, artisan, crematorium,
+  crime, distillerie, docks, forge, chasse-leviathan, abattoir, étable,
+  commerce. Récupérez `2-Jetons` ou `1-Faveur`
 
 Vous pouvez choisir de dépenser des `Jetons` (un pour un) pour chacune des
 options. Vous pouvez choisir deux fois la même option.
@@ -83,9 +87,9 @@ additionnez-les.**
 ## Création du personnage
 
 Choisissez un nom et un badge (voir ci-dessous). Choisissez une patrie et deux
-"dons". Assignez vos points aux caractéristiques : `Force`, `Lucidité`,
-`Finesse`, `Cran`, afin que leur somme soit égale à +2 (max +3 et min -1). Cela
-peut faire [0, 0, +1 +1] ou [+2, 0, 0, 0] ou encore [0, +3, -1, 0].
+Dons. Assignez vos points aux caractéristiques : `Force`, `Lucidité`, `Finesse`,
+`Cran`, afin que leur somme soit égale à +2 (max +3 et min -1). Cela peut faire
+[0, 0, +1 +1] ou [+2, 0, 0, 0] ou encore [0, +3, -1, 0].
 
 ## Nom
 
@@ -117,7 +121,8 @@ questions suivantes :
 * Avez-vous le soutien d'un autre gang ? Si oui, +1
 * Avez-vous recruté une Ancre ? Si vous n'en avez pas, -1
 * Avez-vous un Bull pour les autres rôles ? S'il vous en manque un, -1
-* Est-ce que les autres Bulls jurent de vous suivre aveuglément ? Si non, prenez -1
+* Est-ce que les autres Bulls jurent de vous suivre aveuglément ? Si non,
+  prenez -1
 * Avez-vous déjà travaillé sur cette ligne auparavant ? Si non, -1
 
 Puis faites un `jet` et choisissez parmi les options.
@@ -125,15 +130,21 @@ Puis faites un `jet` et choisissez parmi les options.
 Sur 12+, choisissez trois. Sur 10-11, choisissez deux. Sur 7-9, une.
 
 * Vous tenez l'initiative,
-* Vous maintenez les troupes et leur positionnement, les Bulls sont déployés comme indiqué et prêts à agir.
-* Vous tenez un avantage ou une opportunité particulière ; les Bulls auront un bonus de +1 tant qu'ils bénéficient de cet avantage.
+* Vous maintenez les troupes et leur positionnement, les Bulls sont déployés
+  comme indiqué et prêts à agir.
+* Vous tenez un avantage ou une opportunité particulière ; les Bulls auront un
+  bonus de +1 tant qu'ils bénéficient de cet avantage.
 
 De plus, le Bull qui guide l'équipe fait l'Action de démarrage vers le(s) fantôme(s) :
 
-* Ancre (Anchor) : attirer l'attention du Fantôme, voire entrer en contact avec lui
-* Araignée (Spider) : utiliser un filet / lumière pour l'attraper et l'enfermer dans une flasque-esprit
-* Corbeau (Rook) : Détacher de force du train le fantôme / L'affaiblir
-* Hibou (Owl) : répérer et classer le fantôme, déterminer la meilleure stratégie
+* Ancre (Anchor) : attirer l'attention du Fantôme, voire entrer en contact avec
+  lui (`Cran`).
+* Araignée (Spider) : utiliser une toile-foudre (`Finesse`) pour l'attraper et l'enfermer
+  dans une flasque-esprit.
+* Corbeau (Rook) : Détacher de force du train le fantôme à l'aide d'un
+  crochet-foudre (`Force`), l'affaiblir.
+* Hibou (Owl) : répérer et étudier le fantôme avec vos lunettes-esprit
+  (`Lucidité`), déterminer la meilleure stratégie.
 
 ## Imposez votre volonté
 
@@ -153,12 +164,38 @@ Sur 7-9, c'est `1-Trauma`. Si vous menacez d'user de votre `Force` ils peuvent
 
 Sévérité des Dommages, par numéro de section sur la Pendule :
 
-1. Coups de poing, lutte, choc électrique indirect, asphyxie dans les brumes toxiques,
-2. Lutte vicelarde, châtaigne de crochet-foudre, attaque par une manifestation du fantôme,
-3. Armes mortelles, décharge du crochet-foudre, manifestations majeures du fantôme,
+1. Coups de poing, lutte, choc électrique indirect, asphyxie dans les brumes
+   toxiques,
+2. Lutte vicelarde, châtaigne de crochet-foudre, attaque par une manifestation
+   du fantôme,
+3. Armes mortelles, décharge du crochet-foudre, manifestations majeures du
+   fantôme,
 4. Electrocution, explosion, chute / impact important,
-5. Chute du train en marche, feu.
+5. Chute du train en marche, en feu.
 
+Sévérité des Traumas, par numéro de section sur la Pendule :
+
+1. Voir un collègue blessé, rencontrer un fantôme, agresser une personne,
+2. Voir un ami blessé, un collègue gravement blessé, étrangeté surnaturelle
+   mineure, approcher un fantôme, assaillir quelqu'un avec force,
+3. Contact direct avec un fantôme, un ami gravement blessé, un collègue tué,
+   commettre un meurtre,
+4. Attaque psychique de fantôme, un ami tué,
+5. Assailli par une entité supernaturelle majeure.
+
+*Quand vous atteignez "midi" sur la Pendule des `Dommages`, vous mourez. Quand
+vous atteignez "midi" sur la Pendule des `Traumas`, votre esprit se désagrège.*
+
+*Vous pouvez choisir de ne pas prendre un Dommage ou un Trauma en l'échangeant
+contre une Cicatrice ou une Horreur, respectivement. Les Cicatrices et les
+Horreurs sont permanentes. On remplit les cases dans le sens horaire.*
+
+## Niveaux
+
+Vous démarrez au niveau 0. Quand vous changez de niveau, choisissez un nouveau
+Don de votre Patrie, ou d'une patrie avec laquelle vous avez travaillé sur au
+moins 4 lignes / boulots.
+Quand vous devenez un Maître, ajoutez +1 à une stat (max +3).
 
 ----
 
