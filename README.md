@@ -16,7 +16,7 @@ C'est l'an 891 du Grand Empire, celui qui unifia les îles éparpillées par le
 cataclysme sous une seule bannière - *Tout Gloire à sa Majesté
 notre Empereur Immortel*.
 
-Vous travaillez sur les lignes des fantômes - un chemin de fer électrique qui
+Vous travaillez sur les Lignes Fantômes - un chemin de fer électrique qui
 traverse les terres désolées, noires comme l'encre entre les villes. Les esprits
 des morts - libérés par la rupture des portes des enfers suite au cataclysme -
 sont souvent pris au piège des champs électriques générés par les trains. Les
@@ -30,8 +30,8 @@ enveloppe électrique que les esprits ne peuvent franchir. De par la loi, tous
 les cadavres doivent être incinérés à l'aide d'huile-lumière (qui détruit
 l'essence de l'esprit) mais certains riches citoyens, des hérétiques des cultes
 spiritiques, ou des criminels s'arrangent pour que le fantôme échappe à la
-destruction au crematorium. *Les "Bulls" comme vous auront également à faire avec
-ceux qu'on appelle les "esprits errants"*. Contre rémunération, évidemment.
+destruction au crematorium. *Les "Bulls" comme vous auront également à faire
+avec ceux qu'on appelle les "esprits errants"*. Contre rémunération, évidemment.
 
 Quand les éclaireurs des frontières de l'Empire (les Chasseurs) découvrent un
 puits-à-esprits dans les terres désolées, ils font parfois appel à un gang de
@@ -47,6 +47,7 @@ J'ai essayé de respecter l'esprit du jeu original, mais certains termes sont
 difficiles à traduire (ils sont en italique, si quelqu'un a une suggestion,
 qu'il n'hésite pas)
 
+* *Ghost Line : Ligne fantôme ou Ligne des fantômes (?)*
 * Force: Force
 * Finesse: Finesse
 * Insight: Lucidité
@@ -55,7 +56,7 @@ qu'il n'hésite pas)
 * Trauma: Trauma
 * *Chits: Jetons*
 * Favor: Faveur
-* *Bulls: Bulls* - idées: les Brutes, les Gars ?
+* *Bulls: Bulls* - idées: les Brutes, les Gars, les Cerbères, Gardiens ?
 * Anchor: Ancre
 * Spider: Araignée
 * Rook: Corbeau
