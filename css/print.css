@@ -10,3 +10,10 @@ hr {
     page-break-after: always;
     border: none;
 }
+/* img */
+#gas-mask01, #gas-mask02 {
+    height: 200px !important;
+}
+blockquote {
+    border: none !important;
+}
