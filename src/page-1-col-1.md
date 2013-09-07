@@ -4,8 +4,8 @@
 
 Sur 12+, trois. Sur 10-11, deux. Sur 7-9, une.
 
-* Vous infligez un grand Dommage,
-* Vous recevez un léger Dommage en retour,
+* Vous infligez un grand Dommage.
+* Vous recevez un léger Dommage en retour.
 * Vous les repoussez, capturez quelque chose, ou créez une opportunité.
 
 ## finesse
@@ -14,9 +14,9 @@ Sur 12+, trois. Sur 10-11, deux. Sur 7-9, une.
 
 Sur 12+, trois. Sur 10-11, deux. Sur 7-9, une.
 
-* Vous le faites rapidement,
-* Vous évitez les ennuis, d'être compromis, le prix à payer,
-* Vous le faites de manière impressionnante, avec classe,
+* Vous le faites rapidement.
+* Vous évitez les ennuis, d'être compromis, le prix à payer.
+* Vous le faites de manière impressionnante, avec classe.
 
 ## LuciditÉ
 
