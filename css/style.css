@@ -29,3 +29,7 @@ blockquote p {font-size: 14px !important;}
 strong {font-family: "Libre Caslon Bold", serif !important; }
 strong > em, em > strong { font-family: "Libre Caslon", serif !important; font-style: italic; font-weight: bold;}
 code { font-family: "Libre Caslon", serif !important; font-variant: small-caps;}
+/* img */
+#gas-mask01, #gas-mask02 {
+    height: 310px !important;
+}
