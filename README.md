@@ -42,6 +42,18 @@ plus que la sécurité toute relative de l'électro-rail - mais une échappatoir
 la routine de la ligne. Mais la paie est substantielle, et un "Bull" qui nettoie
 un puits et survit peut espérer gagner suffisamment pour prendre sa retraite.
 
+----
+
+## Bizarreries dans la casse
+
+Tu auras remarqué que dans le texte en markdown, le terme "Ghost Lines" est
+orthographié : "ghosT Lines". Ce n'est *pas* une erreur. Il se trouve que John
+Harper a légèrement détourné l'usage des majuscules et minuscules pour composer
+ses textes (les titres, surtout). Pour couronner le tout, les caractères
+accentués ne passent pas très bien dans la casse normale, alors j'ai été forcé
+de ruser (et de passer certains accents en majuscule).
+
+La police utilisée est : [(*Water Street*)](http://www.dafont.com/water-street-detour.font).
 
 ## Glossaire
 
