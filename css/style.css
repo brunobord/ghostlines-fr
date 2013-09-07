@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Water Street';
+    src: url('fonts/waterst.eot');
+    src: local('☺'), url('fonts/waterst.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Acaslon";
+    src: url("fonts/ACaslonPro-Regular.otf");
+}
+@font-face {
+    font-family: "Acaslon Bold";
+    src: url("fonts/ACaslonPro-Bold.otf");
+}
+@font-face {
+    font-family: "Acaslon Italic";
+    src: url("fonts/ACaslonPro-Italic.otf");
+}
+@font-face {
+    font-family: "Acaslon Bold Italic";
+    src: url("fonts/ACaslonPro-BoldItalic.otf");
+}
+h1, h2, h3, h4, h5, h6 { font-family: 'Water Street', sans-serif !important;}
+h1 { font-size: 2.88em !important;}
+h2 { font-size: 1.9em !important;}
+h3 { font-size: 1.44em !important;}
+body {font-family: "Acaslon", serif !important; }
+em, blockquote p, q { font-family: "Acaslon Italic", serif !important;}
+blockquote p {font-size: 14px !important;}
+strong {font-family: "Acaslon Bold", serif !important; }
+strong > em, em > strong { font-family: "Acaslon Bold Italic", serif !important; }
+code { font-family: "Acaslon", serif !important; font-variant: small-caps;}
