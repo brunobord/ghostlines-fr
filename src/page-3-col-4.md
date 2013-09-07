@@ -21,3 +21,18 @@ MdJ : Quand ils font un petit boulot, donnez un nom à leur employeur, patrie et
 des traits spécifiques. Prenez notes de ces PNJ et utilisez-les pour peupler le
 monde autour des joueurs. 
 
+## Équipement, huile
+
+L'équipement de nettoyage des fantômes est basé sur l'huile des leviathans
+(autrement appelée "huile-lumière"). L'utiliser une fois augmentera la puissance
+d'un objet. Le MdJ peut réclamer qu'on use de cette huile dans d'autres
+circonstances ou en fonction des résultats des dés.
+
+`Équipements spéciaux`
+
+* `Élixir écarlate` : une fiole d'un liquide rougeâtre. Soigne 1-Dommage
+  immédiatement après absorption.
+* `Remède violet` : une fiole d'un liquide pourpre. Soigne 1-Trauma
+  immédiatement après absorption.
+* `Cage à Foudre` : un jeu de de baguettes, câbles et générateurs nécessaires à
+  la production d'une barrière électrique que les esprits ne peuvent franchir.

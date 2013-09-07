@@ -32,7 +32,7 @@ Les `Faveurs` se gagnent via des petits boulots. Vous pouvez dépenser vos faveu
 comme suit :
 
 * 1 Faveur : +2 fantômes nettoyés, une mutation sur une autre ligne, un
-  équipement lié à un rôle.
+  équipement spécial.
 * 2 Faveurs : +1 ligne au compteur.
 * 3 Faveurs : +1 Rôle joué, une demande d'équipement personnalisé.
 * 4 Faveurs : Une information secrète, entrer en contact avec un personnage

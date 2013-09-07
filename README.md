@@ -82,6 +82,8 @@ qu'il n'hésite pas)
 * Lightning-hook: Griffe-Foudre
 * Hounds: Limiers
 * Stash: Pécule
+* Lightning-Oil : Huile lumière
+
 
 ## Licence
 
