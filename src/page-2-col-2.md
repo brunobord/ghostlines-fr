@@ -7,8 +7,9 @@ questions suivantes :
 * Avez-vous accompli votre tournée ? Si oui, +1.
 * Êtes-vous un Maître Bull ? Si oui, +1.
 * Avez-vous le soutien d'un autre gang ? Si oui, +1.
-* Avez-vous recruté une Ancre ? Si vous n'en avez pas, -1.
-* Avez-vous un Bull pour les autres rôles ? S'il vous en manque un, -1.
+* Avez-vous recruté une `Ancre` ? Si vous n'en avez pas, -1.
+* Avez-vous un Bull pour les autres rôles, `Corbeau`, `Araignée`, `Hibou` ? S'il
+  vous en manque un, -1.
 * Est-ce que les autres Bulls jurent de vous suivre aveuglément ? Si non,
   prenez -1.
 * Avez-vous déjà travaillé sur cette ligne auparavant ? Si non, -1.
