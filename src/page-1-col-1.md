@@ -1,4 +1,4 @@
-## Force
+## force
 
 **_Quand vous employez la force_**, jet+`Force` et choisissez parmi les options.
 
@@ -8,7 +8,7 @@ Sur 12+, trois. Sur 10-11, deux. Sur 7-9, une.
 * Vous recevez un léger Dommage en retour,
 * Vous les repoussez, capturez quelque chose, ou créez une opportunité.
 
-## Finesse
+## finesse
 
 ***Quand vous usez de finesse***, jet+`Finesse` et choisissez parmi les options.
 
