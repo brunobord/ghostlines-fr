@@ -1,6 +1,6 @@
 ## Force
 
-***Quand vous employez la force***, `jet+Force` et choisissez parmi les options.
+**_Quand vous employez la force_**, jet+`Force` et choisissez parmi les options.
 
 Sur 12+, trois. Sur 10-11, deux. Sur 7-9, une.
 
@@ -10,7 +10,7 @@ Sur 12+, trois. Sur 10-11, deux. Sur 7-9, une.
 
 ## Finesse
 
-***Quand vous usez de finesse***, `jet+Finesse` et choisissez parmi les options.
+***Quand vous usez de finesse***, jet+`Finesse` et choisissez parmi les options.
 
 Sur 12+, trois. Sur 10-11, deux. Sur 7-9, une.
 
@@ -20,7 +20,7 @@ Sur 12+, trois. Sur 10-11, deux. Sur 7-9, une.
 
 ## LuciditÉ
 
-***Quand vous essayez d'être perspicace***, `jet+Lucidité`.
+***Quand vous essayez d'être perspicace***, jet+`Lucidité`.
 
 Sur 12+, gardez-en trois. Sur 10-11, gardez-en deux. Sur 7-9, gardez-en une.
 
@@ -39,8 +39,8 @@ question immédiatement.*
 
 ## Aider / InterfÉrer
 
-Pour chaque mouvement ci-dessus (Force, Finesse, Lucidité), vous pouvez également
-dépenser une de vos options en tant qu'aide ou gêne :
+Pour chaque mouvement ci-dessus (`Force`, `Finesse`, `Lucidité`), vous pouvez
+également dépenser une de vos options en tant qu'aide ou gêne :
 
 * Vous aidez quelqu'un, ils reçoivent un bonus de +1 à leur jet.
 * Vous gênez quelqu'un, ils reçoivent un malus de -2.
