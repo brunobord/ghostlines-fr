@@ -8,14 +8,14 @@ Dons. Assignez vos points aux caractéristiques : `Force`, `Lucidité`, `Finesse
 ## Noms
 
 Votre badge a un nom écrit dessus, sélectionné à partir du registre des
-Purifiés, comme l'exige la tradition.
+Purifiés, comme l'exige la tradition :
 
 > Brogan, Tyrconnell, Dunvil, Comber, Millar, Slane, Strangford, Nevis, Dalmore,
 > Edrad, Lomond, Clelland, Arran, Scapa, Kinclaith, Coleburn, Penalten,
 > Strathmill, Haig, Morriston, Penderyn, Danf ield, Hellyers, Wasmund,
 > Templeton, Michter, Bowman, Prichard, McKeel, Wathen, Clermont, Rowan, Booker
 
-Vous avez aussi un vrai nom.
+Vous avez aussi un vrai nom :
 
 > Caul, Adric, Amison, Andrel, Milos, Stev, Laudius, Phin, Wester, Bragon, Vond,
 > Mardus, Brance, Canter, Carro, Morlan, Timoth, Arvus, Clard, Kristov, Wonck,

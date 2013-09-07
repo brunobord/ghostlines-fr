@@ -11,7 +11,7 @@ sont souvent pris au piège des champs électriques générés par les trains. L
 "Bulls" de la ligne comme vous patrouillent le long des wagons au son cliquetant
 de leurs bottes magnétiques et de la respiration sifflante au travers de leurs
 masques de protection ; leur mission est de nettoyer les esprits avec vos
-crochets-foudre avant qu'ils ne fassent trop de dégâts.
+griffes-foudre avant qu'ils ne fassent trop de dégâts.
 
 Chaque cité de l'Empire est encerclé par des tours-foudre qui créent une
 enveloppe électrique que les esprits ne peuvent franchir. De par la loi, tous
