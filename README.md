@@ -79,7 +79,7 @@ qu'il n'hésite pas)
 * Gift: Don
 * Spirit-bottle: Flasque-esprit.
 * Lightning-web: Toile-Foudre
-* Lightning-hook: Crochet-Foudre
+* Lightning-hook: Griffe-Foudre
 * Stash: Pécule
 
 ## Licence

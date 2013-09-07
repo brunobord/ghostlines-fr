@@ -18,9 +18,9 @@ Sévérité des Dommages, par numéro de section sur la Pendule :
 
 1. Coups de poing, lutte, choc électrique indirect, asphyxie dans les brumes
    toxiques,
-2. Lutte vicelarde, châtaigne de crochet-foudre, attaque par une manifestation
+2. Lutte vicelarde, châtaigne de griffe-foudre, attaque par une manifestation
    du fantôme,
-3. Armes mortelles, décharge du crochet-foudre, manifestations majeures du
+3. Armes mortelles, décharge de griffe-foudre, manifestations majeures du
    fantôme,
 4. Electrocution, explosion, chute / impact important,
 5. Chute du train en marche, en feu.
