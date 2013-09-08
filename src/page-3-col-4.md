@@ -30,9 +30,9 @@ circonstances ou en fonction des résultats des dés.
 
 `Équipements spéciaux`
 
-* `Élixir écarlate` : une fiole d'un liquide rougeâtre. Soigne 1-Dommage
+* `Élixir Écarlate` : une fiole d'un liquide rougeâtre. Soigne 1-Dommage
   immédiatement après absorption.
-* `Remède violet` : une fiole d'un liquide pourpre. Soigne 1-Trauma
+* `Remède Violet` : une fiole d'un liquide pourpre. Soigne 1-Trauma
   immédiatement après absorption.
 * `Cage à Foudre` : un jeu de de baguettes, câbles et générateurs nécessaires à
   la production d'une barrière électrique que les esprits ne peuvent franchir.
