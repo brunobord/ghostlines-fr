@@ -39,3 +39,10 @@ code { font-family: "Acaslon", serif !important; font-variant: small-caps;}
 #img-train {
     width: 100%;
 }
+
+/* table layouts*/
+p.table-headline-right {
+    margin-top: 10px !important;
+    text-align: right !important;
+    line-height: 40px !important;
+}
