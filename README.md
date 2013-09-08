@@ -83,6 +83,7 @@ qu'il n'hésite pas)
 * Hounds: Limiers
 * Stash: Pécule
 * Lightning-Oil : Huile lumière
+* Spirit-well : puits-à-esprit
 
 
 ## Licence
