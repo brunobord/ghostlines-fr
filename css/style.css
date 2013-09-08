@@ -33,3 +33,6 @@ code { font-family: "Libre Caslon", serif !important; font-variant: small-caps;}
 #gas-mask01, #gas-mask02 {
     height: 310px !important;
 }
+#img-train {
+    width: 100%;
+}

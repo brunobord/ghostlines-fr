@@ -13,6 +13,11 @@ hr {
 /* img */
 #gas-mask01, #gas-mask02 {
     height: 200px !important;
+    width: auto !important;
+}
+#img-train {
+    height: 160px !important;
+    width: auto !important;
 }
 blockquote {
     border: none !important;
