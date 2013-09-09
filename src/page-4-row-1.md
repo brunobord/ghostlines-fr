@@ -36,7 +36,7 @@
         <td>De riches citoyens organisent des "soirées de possession"</td>
         <td>Les sorciers ont des pouvoirs parce qu'ils viennent d'une lignée de démons</td>
         <td>Quelqu'un veut organiser un syndicat des "Bulls"</td>
-        <td>Quelqu'un paierait des "Bulls" pour voler des biens sur les voyageurs</td>
+        <td>Quelqu'un paierait des "Bulls" pour faire de la contrebande via les trains</td>
     </tr>
     <tr>
         <td>4</td>
