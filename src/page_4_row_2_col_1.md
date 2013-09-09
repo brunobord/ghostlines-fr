@@ -13,7 +13,7 @@
     <tbody>
         <tr>
             <th>1</th>
-            <td><em>Collector</em></td>
+            <td>Percepteur</td>
             <td>Banquier</td>
             <td>Réfugié</td>
             <td>Limier</td>
