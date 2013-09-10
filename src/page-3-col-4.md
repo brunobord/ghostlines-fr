@@ -34,5 +34,5 @@ circonstances ou en fonction des résultats des dés.
   immédiatement après absorption.
 * `Remède Violet` : une fiole d'un liquide pourpre. Soigne 1-Trauma
   immédiatement après absorption.
-* `Cage à Foudre` : un jeu de de baguettes, câbles et générateurs nécessaires à
+* `Cage à Foudre` : un jeu de baguettes, câbles et générateurs nécessaires à
   la production d'une barrière électrique que les esprits ne peuvent franchir.
