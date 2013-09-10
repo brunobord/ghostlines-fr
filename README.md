@@ -84,6 +84,7 @@ qu'il n'hésite pas)
 * Stash: Pécule
 * Lightning-Oil : Huile lumière
 * Spirit-well : puits-à-esprit
+* Spirit-Goggle : Lunettes-à-esprit
 
 
 ## Licence
