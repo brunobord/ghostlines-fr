@@ -44,5 +44,7 @@ if __name__ == '__main__':
         key = key.replace('-', '_')
         content = reader.read(join(SOURCE_DIR, filename))
         data[key] = content
+    # Special: the character sheet, full HTML
+    data['page_1_col_2'] = codecs.open(join(SOURCE_DIR, 'page-1-col-2.html'), encoding='utf').read()
     writer.write(data)
 

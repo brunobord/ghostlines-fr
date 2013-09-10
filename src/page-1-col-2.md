@@ -1,4 +1,0 @@
-## The Third Age
-# ghosT Lines
-
-**ATTENTION ! CECI EST UNE VERSION PARTIELLE / INCOMPLÈTE / NON-VÉRIFIÉE**
