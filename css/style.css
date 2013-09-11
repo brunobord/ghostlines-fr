@@ -46,7 +46,8 @@ p.table-headline-right {
 
 /* character */
 #character {
-    font-size: 12px;
+    font-size: .8em;
+    line-height: 1.3em;
 }
 #character ul {
     list-style-type: none;
