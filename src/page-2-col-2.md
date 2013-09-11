@@ -32,5 +32,5 @@ De plus, le Bull qui guide l'équipe fait l'Action de démarrage vers le(s) fant
   l'enfermer dans une flasque-esprit.
 * Corbeau (Rook) : Détacher de force du train le fantôme à l'aide d'une
   griffe-foudre (`Force`), l'affaiblir.
-* Hibou (Owl) : répérer et étudier le fantôme avec vos lunettes-esprit
+* Hibou (Owl) : répérer et étudier le fantôme avec votre spiritoscope
   (`Lucidité`), déterminer la meilleure stratégie.
