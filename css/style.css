@@ -58,3 +58,7 @@ p.table-headline-right {
 #character li:before {
     content: "☐ ";
 }
+#lightning-oil {
+    font-variant: small-caps;
+    font-size: 14px;
+}
