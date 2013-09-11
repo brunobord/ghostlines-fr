@@ -46,3 +46,18 @@ p.table-headline-right {
     text-align: right !important;
     line-height: 40px !important;
 }
+
+/* character */
+#character {
+    font-size: 12px;
+}
+#character ul {
+    list-style-type: none;
+    margin: 0;
+}
+#character li {
+    line-height: 1.3em;
+}
+#character li:before {
+    content: "☐ ";
+}
