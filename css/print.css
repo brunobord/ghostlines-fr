@@ -36,3 +36,7 @@ blockquote {
 .wrap-rightcol {
     padding-left: 3em;
 }
+.stats h4 {
+    line-height: 2.5em !important;
+    font-size: 10px !important;
+}
