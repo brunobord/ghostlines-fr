@@ -81,11 +81,14 @@ p.table-headline-right {
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
+.double-bottom-border {
+    border-bottom: 3px double black;
+}
 .wrap {
     padding-left: 5px;
     padding-right: 5px;
 }
-.stats h3 {
+.stats h4 {
     border: 1px solid black;
     padding-left: 5px;
 }
