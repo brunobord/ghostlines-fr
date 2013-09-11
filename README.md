@@ -85,6 +85,7 @@ qu'il n'hésite pas)
 * Lightning-Oil : Huile lumière
 * Spirit-well : puits-à-esprit
 * Spirit-Goggle : Lunettes-à-esprit
+* Silenced: "Éteint" - l'expression "réduit au silence" était malhabile.
 
 
 ## Licence
