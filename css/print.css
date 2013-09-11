@@ -22,3 +22,17 @@ hr {
 blockquote {
     border: none !important;
 }
+
+/* character*/
+#page-1  {
+    margin-top: 1em !important;
+}
+#character-col {
+    width: 34%;
+}
+#rightcol {
+    margin-left: 1px !important;
+}
+.wrap-rightcol {
+    padding-left: 3em;
+}
