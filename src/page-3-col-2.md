@@ -25,6 +25,6 @@
 * `Puits-à-Esprit` : Une faille dans la réalité dans laquelle les fantômes et
   les autres esprits surnaturels se regroupent pour y puiser de l'énergie.
 * `Électroplasme` : Le résidu d'énergie qui reste lorsqu'un fantôme a été
-  "réduit au silence" (détruit). Manipuler avec extrême précaution.
+  "éteint" (détruit). Manipuler avec extrême précaution.
 * `Sorcier` : Une personne sensible aux esprits. Peut être capable d'invoquer
   et de dialoguer avec des fantômes, mais peu de gens croient en ces pouvoirs.

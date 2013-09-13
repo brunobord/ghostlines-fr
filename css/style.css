@@ -49,7 +49,8 @@ p.table-headline-right {
 
 /* character */
 #character {
-    font-size: 12px;
+    font-size: .8em;
+    line-height: 1.3em;
 }
 #character ul {
     list-style-type: none;
@@ -60,4 +61,46 @@ p.table-headline-right {
 }
 #character li:before {
     content: "☐ ";
+}
+#lightning-oil {
+    font-variant: small-caps;
+    font-size: 14px;
+}
+#character .bottom-border {
+    border-bottom: 3px solid black;
+}
+#character-outer {
+    border: 2px solid black;
+    padding: 1px;
+}
+#character-inner {
+    border: 1px solid black;
+}
+#character-inner, #character-outer {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.double-bottom-border {
+    border-bottom: 3px double black;
+}
+.wrap {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.wrap-top {
+    padding-top: 5px;
+}
+.stats h4 {
+    border: 1px solid black;
+    padding-left: 5px;
+}
+.lightning-oil {
+    border-top: 3px double black;
+    border-right: 3px double black;
+    border-top-right-radius: 1em;
+    width: 75%;
+    padding: 2px 10px 1px 5px;
+    margin-bottom: 0;
+    margin-left: 0;
 }

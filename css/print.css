@@ -22,3 +22,26 @@ hr {
 blockquote {
     border: none !important;
 }
+
+/* character*/
+#page-1  {
+    margin-top: 1em !important;
+}
+#character-col {
+    width: 34%;
+}
+#rightcol {
+    margin-left: 1px !important;
+}
+.wrap-rightcol {
+    padding-left: 3em;
+}
+.stats h4 {
+    line-height: 2.5em !important;
+    font-size: 10px !important;
+}
+#lightning-oil {
+    border: none;
+    font-size: 1.2em;
+    margin-top: 2em;
+}

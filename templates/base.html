@@ -9,15 +9,15 @@
 </head>
 <body>
 <div class="container-fluid">
-<div class="row-fluid">
+<div class="row-fluid" id="page-1">
 	<div class="span4">
 		<img src="img/harm-scar.png" alt="">
 		{{ page_1_col_1 }}
 	</div>
-	<div class="span4">{{ page_1_col_2 }}</div>
-	<div class="span4">
+	<div class="span4" id="character-col">{{ page_1_col_2 }}</div>
+	<div class="span4" id="rightcol">
 		<img src="img/trauma-horror.png" alt="">
-		{{ page_1_col_3 }}
+		<div class="wrap-rightcol">{{ page_1_col_3 }}</div>
 	</div>
 </div>
 <hr>

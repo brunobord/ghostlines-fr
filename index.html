@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container-fluid">
-<div class="row-fluid">
+<div class="row-fluid" id="page-1">
 	<div class="span4">
 		<img src="img/harm-scar.png" alt="">
 		<h2 id="force">force</h2>
@@ -50,22 +50,22 @@ pouvez également dépenser une de vos options en tant qu'aide ou gêne :</p>
 <li>Ceux que vous gênez reçoivent un malus de -2.</li>
 </ul>
 	</div>
-	<div class="span4"><div id="character">
+	<div class="span4" id="character-col"><div id="character">
+<div id="character-outer">
+	<div id="character-inner">
 
 <div class="row-fluid text-center">
     <h2>The Third Age</h2>
-    <h1>ghosT Lines</h1>
+    <h1 class="double-bottom-border">ghosT Lines</h1>
 </div>
 
-<div class="row-fluid">
+<div class="row-fluid wrap double-bottom-border">
     <div class="span4"><h4>Badge</h4></div>
-    <div class="span4"><h4>Name</h4></div>
-    <div class="span4"><h4>Level</h4></div>
+    <div class="span4"><h4>Nom</h4></div>
+    <div class="span4"><h4>Niveau</h4></div>
 </div>
 
-<hr>
-
-<div class="row-fluid">
+<div class="row-fluid wrap bottom-border">
     <div class="span5"><h4>Role</h4>
         <p><code><small>Corbeau, Hibou, Araignée, Ancre</small></code></p>
     </div>
@@ -75,14 +75,12 @@ pouvez également dépenser une de vos options en tant qu'aide ou gêne :</p>
     </div>
 </div>
 
-<hr>
-
-<div class="row-fluid">
-    <div class="span4">
-        <h2>force</h2>
-        <h2>finesse</h2>
-        <h2>luciditÉ</h2>
-        <h2>Cran</h2>
+<div class="row-fluid wrap bottom-border">
+    <div class="stats span3">
+        <h4>force</h4>
+        <h4>finesse</h4>
+        <h4>luciditÉ</h4>
+        <h4>Cran</h4>
     </div>
     <div class="span4">
         <h4>Skovlan</h4>
@@ -118,31 +116,112 @@ pouvez également dépenser une de vos options en tant qu'aide ou gêne :</p>
         </ul>
     </div>
 </div>
-<hr>
 
-<div class="row-fluid">
+<div class="row-fluid wrap wrap-top bottom-border">
 
-	<div class="span6">
-		<code>Équipement</code> : Gros gants, tenue de contact, manteau, masque à gaz,
+	<div class="span7">
+		<p><code>Équipement</code> : Gros gants, tenue de contact, manteau, masque à gaz,
 		réserve d'air, lunettes, câbles et pince, griffe-foudre, bottes magnétiques,
 		lumière de détresse, réserve d'huile-lumière (4 doses), et un des
 		équipements supplémentaires ci-contre:
+		</p>
+		<p id="lightning-oil" class="lightning-oil">Huile-Lumière: o o o o</p>
 	</div>
-	<div class="span6">
+	<div class="span5">
 		<ul>
 			<li><code>Corbeau</code>: griffe-foudre lourde</li>
 			<li><code>Araignée</code>: lance-électro-toile, une bandoulière de flasque-à-esprit (4)</li>
-			<li><code>Hibou</code>: Lunettes-à-esprit, réserve d'huile-lumière supplémentaire (4)</li>
+			<li><code>Hibou</code>: Spiritoscope, réserve d'huile-lumière supplémentaire (4)</li>
 			<li><code>Ancre</code>: Armure de contact (1-Armor, électro-champ)</li>
 		</ul>
 	</div>
-
 </div>
 
-</div>
-</div>
+<div class="row-fluid wrap">
 	<div class="span4">
+		<code>Niveau 1 : Apprentissage</code>
+		<ul>
+			<li>Nettoyer 10 fantômes</li>
+			<li>Travail sur 3 lignes</li>
+			<li>Endosser 2 rôles</li>
+		</ul>
+
+		<code>Niveau 2 : Compagnon</code>
+		<ul>
+			<li>Nettoyer 30 fantômes</li>
+			<li>Éteindre un fantôme</li>
+			<li>Travail sur 6 lignes</li>
+			<li>Endosser tous les rôles</li>
+		</ul>
+
+		<code>Niveau 3 : Maître</code>
+		<ul>
+			<li>Nettoyer 60 fantômes</li>
+			<li>Éteindre 12 fantômes</li>
+			<li>Travail sur les 12 lignes</li>
+			<li>Enseigner à un Bull</li>
+		</ul>
+	</div>
+	<div class="span4">
+		<code>Lignes</code>
+		<ul>
+			<li>Skovlan : Haut (<code>iii</code>)</li>
+			<li>Skovlan : Bas (<code>ii</code>)</li>
+			<li>Akoros : Brummur (<code>i</code>)</li>
+			<li>Akoros : Hauteurs (<code>ii</code>)</li>
+			<li>Akoros : Baie (<code>i</code>)</li>
+			<li>Akoros : Gorge (<code>iii</code>)</li>
+			<li>Iruvia : Îles (<code>ii</code>)</li>
+			<li>Iruvia : Vapespire (<code>ii</code>)</li>
+			<li>Iruvia : Forêt-du-lac (<code>i</code>)</li>
+			<li>Sevoros : Hautes-terres (<code>iii</code>)</li>
+			<li>Sevoros : Plaines (<code>ii</code>)</li>
+			<li>Sevoros : Côtes (<code>iii</code>)</li>
+		</ul>
+	</div>
+	<div class="span4">
+		<div class="row-fluid">
+			<div class="span6">
+				<code>Rôle</code>
+				<ul>
+					<li>Corbeau</li>
+					<li>Araignée</li>
+					<li>Hibou</li>
+					<li>Ancre</li>
+				</ul>
+			</div>
+			<div class="span6">
+				<code>Éteints</code>
+				<p>☐☐☐☐☐☐
+				   ☐☐☐☐☐☐
+				   ☐☐☐☐☐☐
+				   ☐☐☐☐☐☐</p>
+			</div>
+		</div>
+
+		<div class="row-fluid">
+			<code>Fantômes nettoyés</code>
+			<p>☐☐☐☐☐☐☐☐☐☐☐☐
+			   ☐☐☐☐☐☐☐☐☐☐☐☐
+			   ☐☐☐☐☐☐☐☐☐☐☐☐
+			   ☐☐☐☐☐☐☐☐☐☐☐☐
+			   ☐☐☐☐☐☐☐☐☐☐☐☐
+			   ☐☐☐☐☐☐☐☐☐☐☐☐
+			   ☐☐☐☐☐☐☐☐☐☐☐☐
+			   ☐☐☐☐☐☐☐☐☐☐☐☐
+			   ☐☐☐☐☐☐☐☐☐☐☐☐</p>
+		</div>
+	</div>
+</div>
+
+	</div> <!-- end inner -->
+</div> <!-- end outer -->
+
+</div> <!-- end character -->
+</div>
+	<div class="span4" id="rightcol">
 		<img src="img/trauma-horror.png" alt="">
+<<<<<<< HEAD
 		<h2 id="cran">Cran</h2>
 <p><strong><em>Quand vous essayez de résister</em></strong>, à une blessure, une contrainte ou 
 une horreur surnaturelle, choisissez parmi les actions <strong>celle que vous
@@ -150,6 +229,14 @@ espérez ne pas subir</strong> et additionnez un jet à votre <code>Cran</code>.
 <p>Avec 10 ou plus, vous êtes totalement épargné. Entre 7 et 9, le MdJ choisit
 une action hormis celle que vous avez sélectionné. <em>Sur un échec, c'est celle
 que vous ne vouliez pas
+=======
+		<div class="wrap-rightcol"><h2 id="cran">Cran</h2>
+<p><strong><em>Quand vous résistez</em></strong>, à une blessure, une contrainte ou une horreur
+supernaturelle, choisissez parmi les options <strong>celle que vous ne voulez pas</strong>
+et faites un jet+<code>Cran</code>.</p>
+<p>Sur un 10+, aucune n'arrive. Sur un 7-9, le MdJ choisit une option hormis celle
+que vous avez sélectionné. <em>Sur un échec, c'est celle que vous ne vouliez pas
+>>>>>>> bruno/gh-pages
 qui arrive !</em></p>
 <ul>
 <li>Scotché, laissé là sans défense.</li>
@@ -171,10 +258,17 @@ docker, chasse-leviathan, employé dans un crématorium, une distillerie,
 une forge, un abattoir, une étable, un commerce. Récupérez 2-<code>Pécules</code> ou
 1-<code>Faveur</code>.</li>
 </ul>
+<<<<<<< HEAD
 <p>Vous pouvez choisir de dépenser un <code>Jeton</code> par option supplémentaire.
 Vous pouvez choisir deux fois la même option.</p>
 <p><strong><code>Note</code> : quand on vous demande de faire un jet, prenez deux dés à 6 faces et 
 additionnez-les.</strong></p>
+=======
+<p>Vous pouvez choisir de dépenser des <code>Jetons</code> (un pour un) pour chacune des
+options. Vous pouvez choisir deux fois la même option.</p>
+<p><strong><code>Note</code>: Quand on vous demande de faire un jet, prendez deux dés à 6 faces et 
+additionnez-les.</strong></p></div>
+>>>>>>> bruno/gh-pages
 	</div>
 </div>
 <hr>
@@ -243,7 +337,7 @@ questions suivantes :</p>
   l'enfermer dans une flasque-esprit.</li>
 <li>Corbeau (Rook) : Détacher de force du train le fantôme à l'aide d'une
   griffe-foudre (<code>Force</code>), l'affaiblir.</li>
-<li>Hibou (Owl) : répérer et étudier le fantôme avec vos lunettes-esprit
+<li>Hibou (Owl) : répérer et étudier le fantôme avec votre spiritoscope
   (<code>Lucidité</code>), déterminer la meilleure stratégie.</li>
 </ul>
 	</div>
@@ -351,7 +445,7 @@ un puits et survit peut espérer gagner suffisamment pour prendre sa retraite.</
 <li><code>Puits-à-Esprit</code> : Une faille dans la réalité dans laquelle les fantômes et
   les autres esprits surnaturels se regroupent pour y puiser de l'énergie.</li>
 <li><code>Électroplasme</code> : Le résidu d'énergie qui reste lorsqu'un fantôme a été
-  "réduit au silence" (détruit). Manipuler avec extrême précaution.</li>
+  "éteint" (détruit). Manipuler avec extrême précaution.</li>
 <li><code>Sorcier</code> : Une personne sensible aux esprits. Peut être capable d'invoquer
   et de dialoguer avec des fantômes, mais peu de gens croient en ces pouvoirs.</li>
 </ul></div>
