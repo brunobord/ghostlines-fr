@@ -79,7 +79,7 @@ qu'il n'hésite pas)
 * *Ghost Line : Ligne fantôme ou Ligne des fantômes (?)*
 * *Bulls: Bulls* - idées: les Brutes, les Gars, les Cerbères, Gardiens ?
 * Spirit-well : puits-à-esprit
-* *Chits: Jetons*
+* Chits: Jetons
 * Hounds: Limiers
 * Anchor: Ancre
 * Owl: Hibou
