@@ -37,7 +37,7 @@ question immédiatement.*
 
 ## Aider / InterfÉrer
 
-Pour chacun des mouvements précédents (`Force`, `Finesse`, `Lucidité`), vous
+Pour chacune des actions précédentes (`Force`, `Finesse`, `Lucidité`), vous
 pouvez également dépenser une de vos options en tant qu'aide ou gêne :
 
 * Ceux que vous aidez reçoivent un bonus de +1 à leur jet.
