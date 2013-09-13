@@ -22,8 +22,8 @@
     </tr>
     <tr>
         <td>2</td>
-        <td>L'Église de la Chair Extatique achèterait des flasques-esprit habitées</td>
-        <td>Quelqu'un achète et vend des flasques-esprit habitées dans un bar des docks</td>
+        <td>L'Église de la Chair Extatique achèterait des flasques-à-esprit habitées</td>
+        <td>Quelqu'un achète et vend des flasques-à-esprit habitées dans un bar des docks</td>
         <td>Un explorateur affirme détenir une carte de tous les puits-à-esprit dans les terres désolées</td>
         <td>Une ligne "abandonnée" des territoires du nord est encore utilisée pour acheminer les flasques-à-esprit "quelque part"</td>
         <td>Il y a une porte secrète dans la ville que seuls les sorciers / fantômes / morts-vivants / possédés peuvent voir</td>
