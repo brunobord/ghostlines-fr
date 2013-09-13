@@ -10,7 +10,7 @@ Avec 12 ou plus, trois options ; 10-11, deux ; 7-9, une.
 
 ## finesse
 
-***Quand vous usez de finesse***, jet+`Finesse` et choisissez parmi les options. 
+***Quand vous usez de finesse***, jet+`Finesse` et choisissez parmi les options.
 
 Avec 12 ou plus, trois options ; 10-11, deux ; 7-9, une.
 
