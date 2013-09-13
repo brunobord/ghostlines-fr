@@ -1,7 +1,6 @@
 ## force
 
-**_Quand vous employez la force_**, additionnez un jet à votre `Force` et
-choisissez parmi les options.
+**_Quand vous employez la force_**, jet+`Force` et choisissez parmi les options.
 
 Avec 12 ou plus, trois options ; 10-11, deux ; 7-9, une.
 
@@ -11,8 +10,7 @@ Avec 12 ou plus, trois options ; 10-11, deux ; 7-9, une.
 
 ## finesse
 
-***Quand vous usez de finesse***, additionnez un jet à votre `Finesse` et
-choisissez parmi les options.
+***Quand vous usez de finesse***, jet+`Finesse` et choisissez parmi les options. 
 
 Avec 12 ou plus, trois options ; 10-11, deux ; 7-9, une.
 
@@ -22,9 +20,9 @@ Avec 12 ou plus, trois options ; 10-11, deux ; 7-9, une.
 
 ## LuciditÉ
 
-***Quand vous essayez d'être perspicace***, additionnez un jet à votre `Lucidité`.
+***Quand vous essayez d'être perspicace***, jet+`Lucidité`.
 
-Avec 12 ou plus, gardez-en trois ; 10-11, deux ; 7-9, une.Échangez vos options
+Avec 12 ou plus, gardez-en trois ; 10-11, deux ; 7-9, une. Échangez vos options
 contre autant de questions à poser au MdJ à tout moment de la scène.
 
 * Que se passe-t-il vraiment ici ?
@@ -39,8 +37,8 @@ question immédiatement.*
 
 ## Aider / InterfÉrer
 
-Pour chacune des actions précédentes (`Force`, `Finesse`, `Lucidité`), vous pouvez
-également dépenser une de vos options en tant qu'aide ou gêne :
+Pour chacun des mouvements précédents (`Force`, `Finesse`, `Lucidité`), vous
+pouvez également dépenser une de vos options en tant qu'aide ou gêne :
 
 * Ceux que vous aidez reçoivent un bonus de +1 à leur jet.
 * Ceux que vous gênez reçoivent un malus de -2.
