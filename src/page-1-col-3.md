@@ -1,7 +1,7 @@
 ## Cran
 
 ***Quand vous essayez de résister***, à une blessure, une contrainte ou 
-une horreur supernaturelle, choisissez parmi les actions **celle que vous
+une horreur surnaturelle, choisissez parmi les actions **celle que vous
 espérez ne pas subir** et additionnez un jet à votre `Cran`.
 
 Avec 10 ou plus, vous êtes totalement épargné. Entre 7 et 9, le MdJ choisit
@@ -22,7 +22,7 @@ Quand vous êtes en période creuse, sans boulot, choisissez une option :
 * **Aller au pub** : soigne le trauma (s'il est supérieur à 6, descendez à 6,
 s'il est inférieur ou égal à 6, passez à zéro).
 * **Visiter le guérisseur** : soigne les dommages (s'ils sont supérieurs à 9,
-descendez à 9 ; égaux à 9, descendez à 6 ; inférieurd ou égaux à 6, tout
+descendez à 9 ; égaux à 9, descendez à 6 ; inférieurs ou égaux à 6, tout
 est guéri).
 * **Faire un petit boulot** - au choix : videur, courrier, artisan, brigand,
 docker, chasse-leviathan, employé dans un crématorium, une distillerie,
