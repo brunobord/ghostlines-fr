@@ -77,7 +77,7 @@ qu'il n'hésite pas)
 * Owl: Hibou
 * *Harm: Dommage*
 * Gift: Don
-* Spirit-bottle: Flasque-esprit.
+* Spirit-bottle: Flasque-à-esprit.
 * Lightning-web: Toile-Foudre
 * Lightning-hook: Griffe-Foudre
 * Hounds: Limiers
