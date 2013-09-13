@@ -61,32 +61,39 @@ J'ai essayé de respecter l'esprit du jeu original, mais certains termes sont
 difficiles à traduire (ils sont en italique, si quelqu'un a une suggestion,
 qu'il n'hésite pas)
 
-* *Ghost Line : Ligne fantôme ou Ligne des fantômes (?)*
+### Le Jeu
+
 * Force: Force
 * Finesse: Finesse
 * Insight: Lucidité
 * Steel: Cran
 * roll+stat: jet+stat
-* Trauma: Trauma
-* *Chits: Jetons*
-* Favor: Faveur
-* *Bulls: Bulls* - idées: les Brutes, les Gars, les Cerbères, Gardiens ?
-* Anchor: Ancre
-* Spider: Araignée
-* Rook: Corbeau
-* Owl: Hibou
-* *Harm: Dommage*
 * Gift: Don
-* Spirit-bottle: Flasque-à-esprit.
-* Lightning-web: Toile-Foudre
-* Lightning-hook: Griffe-Foudre
-* Hounds: Limiers
+* Trauma: Trauma
+* Harm: Dommage
+* Favor: Faveur
 * Stash: Pécule
-* Lightning-Oil : Huile lumière
-* Spirit-well : puits-à-esprit
-* Spirit-Goggle : Spiritoscope
-* Silenced: "Éteint" - l'expression "réduit au silence" était malhabile.
 
+### L'univers
+
+* *Ghost Line : Ligne fantôme ou Ligne des fantômes (?)*
+* *Bulls: Bulls* - idées: les Brutes, les Gars, les Cerbères, Gardiens ?
+* Spirit-well : puits-à-esprit
+* *Chits: Jetons*
+* Hounds: Limiers
+* Anchor: Ancre
+* Owl: Hibou
+* Rook: Corbeau
+* Spider: Araignée
+
+#### Équipement
+
+* Lightning-hook: Griffe-Foudre
+* Lightning-Oil : Huile lumière
+* Lightning-web: Toile-Foudre
+* Silenced: "Éteint" - l'expression "réduit au silence" était malhabile.
+* Spirit-bottle: Flasque-à-esprit.
+* Spirit-Goggle : Spiritoscope
 
 ## Licence
 
