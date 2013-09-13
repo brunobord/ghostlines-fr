@@ -26,7 +26,7 @@
             <td>Troubles politiques</td>
             <td>Prohibition</td>
             <td>Travaux</td>
-            <td>Météo supernaturelle</td>
+            <td>Météo surnaturelle</td>
             <td>Frénésie meurtrière</td>
         </tr>
         <tr>

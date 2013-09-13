@@ -33,7 +33,7 @@ Sur 7-9, c'est 1-`Trauma`. Si vous menacez d'user de votre `Force` ils peuvent
 3. Contact direct avec un fantôme, un ami gravement blessé, un collègue tué,
    commettre un meurtre.
 4. Attaque psychique de fantôme, un ami tué.
-5. Assailli par une entité supernaturelle majeure.
+5. Assailli par une entité surnaturelle majeure.
 
 *Quand vous atteignez "midi" sur la Pendule des `Dommages`, vous mourez. Quand
 vous atteignez "midi" sur la Pendule des `Traumas`, votre esprit se désagrège.*
