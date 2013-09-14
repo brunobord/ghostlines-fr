@@ -12,3 +12,4 @@ The Spirits Within* par A. Reinert & J. Vintar ; *Planarch Codex* par J. Walton 
 *MicroTraveller* par C. Bennett.
 
 `Traduction` : basée sur la v1.5 - &copy; Bruno Bord - 2013. [source sur Github](https://github.com/brunobord/ghostlines-fr)
+- `Relecture`: N. Dufour.

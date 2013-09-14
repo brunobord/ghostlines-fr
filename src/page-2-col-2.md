@@ -24,12 +24,13 @@ Sur 12+, choisissez trois. Sur 10-11, choisissez deux. Sur 7-9, une.
 * Vous tenez un avantage ou une opportunité particulière ; les Bulls auront un
   bonus de +1 tant qu'ils bénéficient de cet avantage.
 
-De plus, le Bull qui guide l'équipe fait l'Action de démarrage vers le(s) fantôme(s) :
+De plus, le Bull qui guide l'équipe fait l'Action de démarrage vers le(s)
+fantôme(s) :
 
 * Ancre (Anchor) : attirer l'attention du Fantôme, voire entrer en contact avec
   lui (`Cran`).
 * Araignée (Spider) : utiliser une toile-foudre (`Finesse`) pour l'attraper et
-  l'enfermer dans une flasque-esprit.
+  l'enfermer dans une flasque-à-esprit.
 * Corbeau (Rook) : Détacher de force du train le fantôme à l'aide d'une
   griffe-foudre (`Force`), l'affaiblir.
 * Hibou (Owl) : répérer et étudier le fantôme avec votre spiritoscope
