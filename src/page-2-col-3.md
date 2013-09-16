@@ -8,8 +8,8 @@
 * Si vous menacez d'agresser physiquement, et que votre `Force` est supérieure, +1.
 
 Avec 12 ou plus, ils sont totalement subjugués et obtempèrent sans broncher. Avec
-10 ou 11, ils choisissent entre faire ce que vous voulez, soit prendre 2-`Trauma`.
-Entre 7 et 9, c'est 1-`Trauma`. Si vous menacez d'user de votre `Force` ils peuvent 
+10 ou 11, ils choisissent entre faire ce que vous voulez, soit prendre 2 traumas.
+Entre 7 et 9, c'est 1 trauma. Si vous menacez d'user de votre `Force` ils peuvent 
 échanger un trauma contre un dommage.
 
 ## Dommages et trauma
