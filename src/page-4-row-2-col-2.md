@@ -34,7 +34,7 @@
             <td>Démolition</td>
             <td>Élections</td>
             <td>Scandale</td>
-            <td>Loi Martiale</td>
+            <td>Loi martiale</td>
             <td>Conscription</td>
             <td>Exode</td>
         </tr>
@@ -63,7 +63,7 @@
             <td>Évasion de prison</td>
             <td>Diplomatie</td>
             <td>Siège</td>
-            <td>Rassemblements du culte Spiritique</td>
+            <td>Rassemblements du culte spiritique</td>
         </tr>
     </tbody>
 </table>
