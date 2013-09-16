@@ -25,7 +25,7 @@ h2 { font-size: 1.9em !important;}
 h3 { font-size: 1.44em !important;}
 body {font-family: "Libre Caslon", serif !important; }
 em, blockquote p, q { font-family: "Libre Caslon Italic", serif !important;}
-blockquote p {font-size: 14px !important;}
+blockquote p {font-size: 14px;}
 strong {font-family: "Libre Caslon Bold", serif !important; }
 strong > em, em > strong { font-family: "Libre Caslon", serif !important; font-style: italic; font-weight: bold;}
 code { font-family: "Libre Caslon", serif !important; font-variant: small-caps;}

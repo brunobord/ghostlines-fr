@@ -22,6 +22,9 @@ hr {
 blockquote {
     border: none !important;
 }
+blockquote p {
+    font-size: 12px !important;
+}
 
 /* character*/
 #page-1  {
