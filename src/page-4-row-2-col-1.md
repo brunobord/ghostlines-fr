@@ -61,7 +61,7 @@
             <td>Assassin</td>
             <td>Voleur</td>
             <td>Sorcier</td>
-            <td>Maquereau / Maquerelle</td>
+            <td>Proxénète</td>
             <td>Artiste</td>
             <td>Docteur</td>
         </tr>
