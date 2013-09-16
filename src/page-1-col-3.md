@@ -15,6 +15,8 @@ qui arrive !*
 * Rage, perte de contrôle, provoque des dommages involontaires.
 * Souffre d'un trauma ou d'un dommage supplémentaire.
 
+![Jetons, Pécule, Faveurs](img/chits-stash-favors.png)
+
 ## PÉriode creuse
 
 Quand vous êtes en période creuse, sans boulot, choisissez une option :
