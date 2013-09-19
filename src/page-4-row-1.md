@@ -16,7 +16,7 @@
         <td>Quelqu'un fabrique des corps-sans-âme pour avoir de la main-d'œuvre bon marché</td>
         <td>Quelqu'un offre un « remède » contre les corps-sans-âme</td>
         <td>Quelqu'un a monté un gang composé de corps-sans-âme</td>
-        <td>Un "Bull" a été transmuté en corps-sans-âme pour avoir osé toucher une personne de rang royal</td>
+        <td>Un cerbère a été transmuté en corps-sans-âme pour avoir osé toucher une personne de rang royal</td>
         <td>Quelqu'un a vu des corps-sans-âme se rassembler auprès d'une vieille relique en ville</td>
         <td>Quelqu'un offre une récompense si on lui livre des corps-sans-âme vivants</td>
     </tr>
@@ -35,8 +35,8 @@
         <td>Un haut fonctionnaire impérial est possédé</td>
         <td>De riches citoyens organisent des « soirées de possession »</td>
         <td>Les sorciers ont des pouvoirs parce qu'ils descendent d'une lignée de démons</td>
-        <td>Quelqu'un veut organiser un syndicat des "Bulls"</td>
-        <td>Quelqu'un paierait des "Bulls" pour faire de la contrebande via les trains</td>
+        <td>Quelqu'un veut organiser un syndicat des cerbères</td>
+        <td>Quelqu'un paierait des cerbères pour faire de la contrebande via les trains</td>
     </tr>
     <tr>
         <td>4</td>
