@@ -11,7 +11,7 @@ cataclysme - sont souvent pris au piège des champs électriques générés par
 trains. Les "Bulls" de la ligne comme vous patrouillent le long des wagons au
 son cliquetant de leurs bottes magnétiques et de la respiration sifflante au
 travers de leurs masques de protection ; leur mission est de nettoyer les
-esprits avec leurs griffes-foudre avant qu'ils ne fassent trop de dégâts.
+esprits avec leurs électrogriffes avant qu'ils ne fassent trop de dégâts.
 
 Chaque cité de l'Empire est encerclée par des tours-foudre qui créent une
 enveloppe électrique que les esprits ne peuvent franchir. De par la loi, tous

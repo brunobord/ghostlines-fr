@@ -30,6 +30,6 @@ les fantômes :
 * Araignée (Spider) : utiliser une toile-foudre (`Finesse`) pour l'attraper et
   l'enfermer dans une flasque-à-esprit.
 * Corbeau (Rook) : détacher de force le fantôme du train à l'aide d'une
-  griffe-foudre (`Force`), l'affaiblir.
+  électrogriffe (`Force`), l'affaiblir.
 * Hibou (Owl) : étudier le fantôme avec votre spiritoscope (`Lucidité`)
 et évaluer la situation pour déterminer la meilleure stratégie.

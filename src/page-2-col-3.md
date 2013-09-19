@@ -18,9 +18,9 @@ Entre 7 et 9, c'est 1 trauma. Si vous menacez d'user de votre `Force` ils peuven
 
 1. Coups de poing, lutte, choc électrique indirect, asphyxie dans les brumes
    toxiques.
-2. Lutte vicelarde, châtaigne de griffe-foudre, attaque par une manifestation
+2. Lutte vicelarde, châtaigne d'électrogriffe, attaque par une manifestation
    du fantôme.
-3. Armes mortelles, décharge de griffe-foudre, manifestations majeures du
+3. Armes mortelles, décharge d'électrogriffe, manifestations majeures du
    fantôme.
 4. Électrocution, explosion, chute ou impact important.
 5. Chute du train en marche, en feu.
