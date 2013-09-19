@@ -24,7 +24,7 @@ utilisez-les pour peupler le monde autour des joueurs.
 ## Équipement, huile
 
 L'équipement de nettoyage des fantômes est basé sur l'huile des léviathans
-(autrement appelée « huile-lumière »). L'utiliser une fois sur un objet en
+(autrement appelée « électrhuile »). L'utiliser une fois sur un objet en
 augmentera la puissance. Le MdJ peut exiger qu'elle soit utilisée différemment
 en fonction des circonstances ou d'un jet de dés.
 

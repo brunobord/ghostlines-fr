@@ -15,7 +15,7 @@ esprits avec leurs électrogriffes avant qu'ils ne fassent trop de dégâts.
 
 Chaque cité de l'Empire est encerclée par des tours-foudre qui créent une
 enveloppe électrique que les esprits ne peuvent franchir. De par la loi, tous
-les cadavres doivent être incinérés à l'aide d'huile-lumière (qui détruit
+les cadavres doivent être incinérés à l'aide de l'électrhuile (qui détruit
 l'essence de l'esprit) mais certains riches citoyens, des hérétiques des cultes
 spiritiques, ou des criminels, s'arrangent pour que le fantôme échappe à la
 destruction au crematorium. *Les "Bulls" comme vous auront également à faire
