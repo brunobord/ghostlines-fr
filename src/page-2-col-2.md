@@ -27,7 +27,7 @@ les fantômes :
 
 * Ancre (Anchor) : attirer l'attention du fantôme et entrer en contact avec
   lui (`Cran`).
-* Araignée (Spider) : utiliser une toile-foudre (`Finesse`) pour l'attraper et
+* Araignée (Spider) : utiliser une électrotoile (`Finesse`) pour l'attraper et
   l'enfermer dans une flasque-à-esprit.
 * Corbeau (Rook) : détacher de force le fantôme du train à l'aide d'une
   électrogriffe (`Force`), l'affaiblir.
