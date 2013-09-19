@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td>2</td>
-        <td>L'Église de la chair extatique achèterait des flasques-à-esprit habitées</td>
+        <td>L'Église de la Chair Extatique achèterait des flasques-à-esprit habitées</td>
         <td>Quelqu'un achète et vend des flasques-à-esprit habitées dans un bar des docks</td>
         <td>Un explorateur affirme détenir une carte de tous les puits-à-esprit dans les terres désolées</td>
         <td>Une ligne « abandonnée » des territoires du nord est encore utilisée pour acheminer les flasques-à-esprit "quelque part"</td>
@@ -59,11 +59,11 @@
     <tr>
         <td>6</td>
         <td>Il y aurait un puits-à-esprits quelque part dans la ville</td>
-        <td>Il y a un limier qui accepte les pots-de-vin pour fermer les yeux sur l'existence d'un esprit</td>
+        <td>Il y a un <em>limier</em> qui accepte les pots-de-vin pour fermer les yeux sur l'existence d'un esprit</td>
         <td>De nombreux prêtres de l'Église sont en fait des adeptes du spiritisme</td>
         <td>Un culte spirite se réunit dans un temple sous la ville</td>
-        <td>Les démons des mythes sont réels et sont derrière les cultes spirites</td>
-        <td>Les cultes spirites dérobent les fantômes en les retirant aux possédés</td>
+        <td>Les démons des mythes sont réels et sont derrière les cultes Spirites</td>
+        <td>Les cultes Spirites dérobent les fantômes en les retirant aux possédés</td>
     </tr>
     </tbody>
 </table>

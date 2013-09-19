@@ -2,7 +2,7 @@
 
 Quand vous travaillez sur une ligne, vous êtes payés en `Jetons` ; une monnaie de
 plomb que vous pourrez utiliser pour vous nourrir, vous loger et autres
-marchandises vendues par l'agence impériale du rail.
+marchandises vendues par l'Agence impériale du rail.
 
 * Niveau de la ligne x niveau du personnage = nb. de `Jetons` gagnés.
 
