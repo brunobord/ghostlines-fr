@@ -1,37 +1,35 @@
 ## Contre le surnaturel
 
 ***Quand vous guidez les Bulls contre un fantôme*** le MdJ vous posera les
-questions suivantes :
+questions suivantes :
 
-* Avez-vous accompli votre apprentissage ? Si oui, +1.
-* Avez-vous accompli votre tournée ? Si oui, +1.
-* Êtes-vous un Maître Bull ? Si oui, +1.
-* Avez-vous le soutien d'un autre gang ? Si oui, +1.
-* Avez-vous recruté une `Ancre` ? Si vous n'en avez pas, -1.
-* Avez-vous un Bull pour les autres rôles, `Corbeau`, `Araignée`, `Hibou` ? S'il
-  vous en manque un, -1.
-* Est-ce que les autres Bulls jurent de vous suivre aveuglément ? Si non,
-  prenez -1.
-* Avez-vous déjà travaillé sur cette ligne auparavant ? Si non, -1.
+* Avez-vous terminé votre apprentissage ? Si oui, +1.
+* Avez-vous accompli votre compagnonnage ? Si oui, +1.
+* Êtes-vous un maître Bull ? Si oui, +1.
+* Avez-vous le soutien d'un autre gang ? Si oui, +1.
+* Avez-vous recruté une `Ancre` ? Si vous n'en avez pas, -1.
+* Avez-vous un Bull pour chacun des autres rôles, `Corbeau`, `Araignée`,
+`Hibou` ? S'il vous en manque un, -1.
+* Est-ce que les autres Bulls jurent de vous suivre aveuglément ? Si non, -1.
+* Avez-vous déjà travaillé sur cette ligne auparavant ? Si non, -1.
 
 Puis faites un jet et choisissez parmi les options.
+Avec 12 ou plus, trois options ; 10-11, deux ; 7-9, une.
 
-Sur 12+, choisissez trois. Sur 10-11, choisissez deux. Sur 7-9, une.
-
-* Vous tenez l'initiative,
+* Vous profitez de l'initiative.
 * Vous maintenez les troupes et leur positionnement, les Bulls sont déployés
   comme indiqué et prêts à agir.
-* Vous tenez un avantage ou une opportunité particulière ; les Bulls auront un
+* Vous profitez d'un avantage ou d'une opportunité particulière ; les Bulls auront un
   bonus de +1 tant qu'ils bénéficient de cet avantage.
 
-De plus, le Bull qui guide l'équipe fait l'Action de démarrage vers le(s)
-fantôme(s) :
+De plus, le Bull qui guide l'équipe fait l'action de démarrage vers le ou
+les fantômes :
 
-* Ancre (Anchor) : attirer l'attention du Fantôme, voire entrer en contact avec
+* Ancre (Anchor) : attirer l'attention du fantôme et entrer en contact avec
   lui (`Cran`).
-* Araignée (Spider) : utiliser une toile-foudre (`Finesse`) pour l'attraper et
+* Araignée (Spider) : utiliser une toile-foudre (`Finesse`) pour l'attraper et
   l'enfermer dans une flasque-à-esprit.
-* Corbeau (Rook) : Détacher de force du train le fantôme à l'aide d'une
+* Corbeau (Rook) : détacher de force le fantôme du train à l'aide d'une
   griffe-foudre (`Force`), l'affaiblir.
-* Hibou (Owl) : répérer et étudier le fantôme avec votre spiritoscope
-  (`Lucidité`), déterminer la meilleure stratégie.
+* Hibou (Owl) : étudier le fantôme avec votre spiritoscope (`Lucidité`)
+et évaluer la situation pour déterminer la meilleure stratégie.
