@@ -1,7 +1,7 @@
 ## Sur la ligne fantome...
 
 C'est l'an 891 du Grand Empire, celui qui unifia les îles éparpillées par le
-cataclysme sous une seule bannière - *Toute gloire à sa majesté notre Empereur
+cataclysme sous une seule bannière - *Toute gloire à sa Majesté notre Empereur
 Immortel*.
 
 Vous travaillez sur les *lignes fantômes* - un chemin de fer électrique qui

@@ -1,4 +1,4 @@
-## Petits bouLots
+## Petits BouLots
 
 Quand vous faites un petit boulot, jetez un D6.
 
@@ -30,9 +30,9 @@ en fonction des circonstances ou d'un jet de dés.
 
 `Équipements spéciaux`
 
-* `Élixir écarlate` : fiole de liquide rougeâtre ; soigne 1 dommage
+* `Élixir Écarlate` : fiole de liquide rougeâtre ; soigne 1-dommage
   immédiatement après absorption.
-* `Remède violet` : fiole de liquide pourpre ; soigne 1 trauma
+* `Remède Violet` : fiole de liquide pourpre ; soigne 1-trauma
   immédiatement après absorption.
-* `Cage à foudre` : un jeu de baguettes, câbles et générateurs nécessaires à
+* `Cage à Foudre` : un jeu de baguettes, câbles et générateurs nécessaires à
   la production d'une barrière électrique que les esprits ne peuvent franchir.

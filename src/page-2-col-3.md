@@ -12,7 +12,7 @@ Avec 12 ou plus, ils sont totalement subjugués et obtempèrent sans broncher. A
 Entre 7 et 9, c'est 1 trauma. Si vous menacez d'user de votre `Force` ils peuvent 
 échanger un trauma contre un dommage.
 
-## Dommages et trauma
+## Dommages et Trauma
 
 `Sévérité des dommages, par numéro de section sur la pendule :`
 

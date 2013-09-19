@@ -63,7 +63,7 @@
             <td>Évasion de prison</td>
             <td>Diplomatie</td>
             <td>Siège</td>
-            <td>Rassemblements du culte spiritique</td>
+            <td>Rassemblements du culte Spiritique</td>
         </tr>
     </tbody>
 </table>
