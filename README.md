@@ -77,8 +77,8 @@ qu'il n'hésite pas)
 
 ### L'univers
 
-* *Ghost Line : Ligne fantôme ou Ligne des fantômes (?)*
-* *Bulls: Bulls* - idées: les Brutes, les Gars, les Cerbères, Gardiens ?
+* Ghost Line : la Ligne Fantôme
+* Bull(s): Cerbère(s)
 * Spirit-well : puits-à-esprit
 * Chits: Jetons
 * Hounds: Limiers
@@ -86,14 +86,15 @@ qu'il n'hésite pas)
 * Owl: Hibou
 * Rook: Corbeau
 * Spider: Araignée
+* Hollow: Corps-sans-esprit
 
 #### Équipement
 
-* Lightning-hook: Griffe-Foudre
-* Lightning-Oil : Huile lumière
-* Lightning-web: Toile-Foudre
+* Lightning-hook: Électrogriffe
+* Lightning-Oil : Électrhuile
+* Lightning-web: Électrotoile
 * Silenced: "Éteint" - l'expression "réduit au silence" était malhabile.
-* Spirit-bottle: Flasque-à-esprit.
+* Spirit-bottle: Flasque-à-esprit
 * Spirit-Goggle : Spiritoscope
 
 ## Licence
