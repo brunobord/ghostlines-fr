@@ -1,6 +1,6 @@
 ## CrÉation du personnage
 
-Choisissez un nom et un badge (voir ci-dessous). Choisissez une patrie et deux
+Choisissez un nom et un insigne (voir ci-dessous). Choisissez une patrie et deux
 Dons. Assignez vos points aux caractéristiques : `Force`, `Lucidité`, `Finesse`,
 `Cran`, afin que leur somme soit égale à +2 (max +3 et min -1). Cela peut faire
 [0, 0, +1 +1] ou [+2, 0, 0, 0] ou encore [0, +3, -1, 0].
