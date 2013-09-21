@@ -10,7 +10,11 @@ foi en mes talents graphiques. Le but de ce modeste projet est de proposer
 une version *aussi confortable que possible* en HTML, si possible imprimable
 et utilisable rapidement.
 
-Une ébauche est visible à l'adresse : [http://brunobord.github.io/ghostlines-fr/](http://brunobord.github.io/ghostlines-fr/)
+Le jeu est proposé sous deux formes:
+
+* une HTML visible à l'adresse suivante : [http://brunobord.github.io/ghostlines-fr/](http://brunobord.github.io/ghostlines-fr/).
+  Vous pouvez choisir de la consulter sur écran, ou de l'imprimer par vos soins.
+* une version PDF téléchargeable à l'adresse suivante [TODO](TODO).
 
 ## Sur la ligne fantôme...
 
@@ -79,6 +83,7 @@ qu'il n'hésite pas)
 
 * Ghost Line : la Ligne Fantôme
 * Bull(s): Cerbère(s)
+* Badge : Insigne
 * Spirit-well : puits-à-esprit
 * Chits: Jetons
 * Hounds: Limiers
