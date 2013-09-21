@@ -5,10 +5,10 @@ a role playing game by [John Harper](http://www.onesevendesign.com/).
 
 ----
 
-Je n'ai pas de copie de InDesign, ni envie d'en acheter, et encore moins de
-foi en mes talents graphiques. Le but de ce modeste projet est de proposer 
-une version *aussi confortable que possible* en HTML, si possible imprimable
-et utilisable rapidement.
+Je n'ai pas de copie de InDesign, ni envie d'en acheter, et encore moins de foi
+en mes talents graphiques. Le but de ce modeste projet est de proposer  une
+version *aussi confortable que possible* en HTML. Ça n'est pas "pixel-perfect",
+mais je présume que le document est jouable.
 
 Le jeu est proposé sous deux formes:
 
@@ -39,7 +39,7 @@ spiritiques, ou des criminels, s'arrangent pour que le fantôme échappe à la
 destruction au crematorium. *Les cerbères comme vous auront également à faire
 avec ceux qu'on appelle les "esprits errants". Contre rémunération, évidemment.*
 
-Quand les éclaireurs des frontières de l'Empire (les `Limiers`) découvrent un
+Quand les éclaireurs des frontières de l'Empire (les Limiers) découvrent un
 puits-à-esprits dans les terres désolées, ils font parfois appel à un gang de
 cerbères expérimentés pour le nettoyer. C'est le travail le plus dangereux - bien
 plus que la sécurité toute relative de l'électro-rail - mais une échappatoire à
@@ -63,8 +63,10 @@ La police utilisée est : [(*Water Street*)](http://www.dafont.com/water-street-
 ## Glossaire
 
 J'ai essayé de respecter l'esprit du jeu original, mais certains termes sont
-difficiles à traduire (ils sont en italique, si quelqu'un a une suggestion,
-qu'il n'hésite pas)
+difficiles à traduire. Si un de ces choix vous paraît malhabile, libre à vous
+d'en utiliser un autre voire de le proposer
+[via les issues du projet](https://github.com/brunobord/ghostlines-fr/issues).
+
 
 ### Le Jeu
 
