@@ -14,7 +14,7 @@ Le jeu est proposé sous deux formes:
 
 * une HTML visible à l'adresse suivante : [http://brunobord.github.io/ghostlines-fr/](http://brunobord.github.io/ghostlines-fr/).
   Vous pouvez choisir de la consulter sur écran, ou de l'imprimer par vos soins.
-* une version PDF téléchargeable à l'adresse suivante [TODO](TODO).
+* une version PDF téléchargeable à l'adresse suivante [http://brunobord.github.io/ghostlines-fr/ghost-lines-vf-1.0.pdf](http://brunobord.github.io/ghostlines-fr/ghost-lines-vf-1.0.pdf).
 
 ## Sur la ligne fantôme...
 
