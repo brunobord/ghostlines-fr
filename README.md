@@ -13,7 +13,7 @@ mais je présume que le document est jouable.
 Le jeu est proposé sous deux formes:
 
 * une HTML visible à l'adresse suivante : [http://brunobord.github.io/ghostlines-fr/](http://brunobord.github.io/ghostlines-fr/). Vous pouvez choisir de la consulter sur écran, ou de l'imprimer par vos soins.
-* une version PDF téléchargeable à l'adresse suivante [http://brunobord.github.io/ghostlines-fr/ghost-lines-vf-1.0.pdf](http://brunobord.github.io/ghostlines-fr/ghost-lines-vf-1.0.pdf).
+* une version PDF téléchargeable à l'adresse suivante [http://brunobord.github.io/ghostlines-fr/ghost-lines-vf-1.1.pdf](http://brunobord.github.io/ghostlines-fr/ghost-lines-vf-1.1.pdf).
 
 Petite aide de jeu: j'ai ajouté la
 [carte de l'électro-rail de l'Imperium en l'an 891 IC](http://brunobord.github.io/ghostlines-fr/3rd_age_map.jpg), à imprimer pour plus de références géographiques (note : cette carte n'est pas traduite).

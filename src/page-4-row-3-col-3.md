@@ -11,6 +11,5 @@ Studios ; *Ghostbusters* par D. Aykroyd, H. Ramis, I. Reitman ; *Final Fantasy
 The Spirits Within* par A. Reinert & J. Vintar ; *Planarch Codex* par J. Walton ;
 *MicroTraveller* par C. Bennett.
 
-`Traduction` : v1.0 -- basée sur la v1.5 - &copy; Bruno Bord - 2013. [source sur Github](https://github.com/brunobord/ghostlines-fr)
+`Traduction` : v1.1 -- basée sur la v1.5 - &copy; Bruno Bord - 2013-2016. [source sur Github](https://github.com/brunobord/ghostlines-fr)
 - `Relecture et corrections` : Nicolas Dufour.
-
