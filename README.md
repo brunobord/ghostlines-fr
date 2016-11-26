@@ -12,13 +12,11 @@ mais je présume que le document est jouable.
 
 Le jeu est proposé sous deux formes:
 
-* une HTML visible à l'adresse suivante : [http://brunobord.github.io/ghostlines-fr/](http://brunobord.github.io/ghostlines-fr/).
-  Vous pouvez choisir de la consulter sur écran, ou de l'imprimer par vos soins.
+* une HTML visible à l'adresse suivante : [http://brunobord.github.io/ghostlines-fr/](http://brunobord.github.io/ghostlines-fr/). Vous pouvez choisir de la consulter sur écran, ou de l'imprimer par vos soins.
 * une version PDF téléchargeable à l'adresse suivante [http://brunobord.github.io/ghostlines-fr/ghost-lines-vf-1.0.pdf](http://brunobord.github.io/ghostlines-fr/ghost-lines-vf-1.0.pdf).
 
 Petite aide de jeu: j'ai ajouté la
-[carte de l'électro-rail de l'Imperium en l'an 891 IC](http://brunobord.github.io/ghostlines-fr/3rd_age_map.jpg),
-à imprimer pour plus de références géographiques (note : cette carte n'est pas traduite).
+[carte de l'électro-rail de l'Imperium en l'an 891 IC](http://brunobord.github.io/ghostlines-fr/3rd_age_map.jpg), à imprimer pour plus de références géographiques (note : cette carte n'est pas traduite).
 
 ## Sur la ligne fantôme...
 
@@ -61,8 +59,6 @@ Harper a légèrement détourné l'usage des majuscules et minuscules pour compo
 ses textes (les titres, surtout). Pour couronner le tout, les caractères
 accentués ne passent pas très bien dans la casse normale, alors j'ai été forcé
 de ruser (et de passer certains accents en majuscule).
-
-La police utilisée est : [(*Water Street*)](http://www.dafont.com/water-street-detour.font).
 
 ## Glossaire
 
@@ -111,5 +107,12 @@ d'en utiliser un autre voire de le proposer
 ## Licence
 
 Étant donné que l'oeuvre originale est sous contrat Creative Commons BY-NC-SA
-(Attribution / Non Commerciale / Partage à l'Identique), il est évident que 
+(Attribution / Non Commerciale / Partage à l'Identique), il est évident que
 cette (tentative) de traduction est distribuée selon les mêmes termes.
+
+## Colophon
+
+* La fonte du corps de texte est [*Libre Caslon*](http://www.impallari.com/librecaslon) ; la police utilisée dans le PDF original est "Adobe Coslon Pro", mais sa license ne permet pas la publication sur le web, aussi elle a dû être retirée du dépôt Github et des téléchargements disponibles.
+* La fonte des titres est [(*Water Street*)](http://www.dafont.com/water-street-detour.font).
+
+Un grand merci à [John Harper](http://onesevendesign.com/) pour avoir publié autant de jeux aussi élégants qu'enthousiasmants.
